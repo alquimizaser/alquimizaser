@@ -1,0 +1,12 @@
+<style type="text/css">
+#box{
+    /*definimos a largura do box*/
+    width:1036.92;
+    /* definimos a altura do box */
+    height:100px;
+    /* definimos a cor de fundo do box */
+    background-color:#666;
+    /* definimos o quão arredondado irá ficar nosso box */
+    border-radius: 10px;
+    }
+</style>

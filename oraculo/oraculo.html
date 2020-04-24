@@ -1,0 +1,3473 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+		<meta charset="UTF-8"/>
+		<link rel="profile" href="http://gmpg.org/xfn/11"/>
+
+				<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes">
+		<title>Oráculo das Flores &#8211; Alkhemy Lab</title>
+<meta name='robots' content='noindex,nofollow' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Feed para Alkhemy Lab &raquo;" href="https://alkhemylab.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Feed de comentários para Alkhemy Lab &raquo;" href="https://alkhemylab.com/comments/feed/" />
+<!-- This site uses the Google Analytics by ExactMetrics plugin v6.0.2 - Using Analytics tracking - https://www.exactmetrics.com/ -->
+<script type="text/javascript" data-cfasync="false">
+	var em_version         = '6.0.2';
+	var em_track_user      = true;
+	var em_no_track_reason = '';
+
+	var disableStr = 'ga-disable-UA-58488668-6';
+
+	/* Function to detect opted out users */
+	function __gaTrackerIsOptedOut() {
+		return document.cookie.indexOf(disableStr + '=true') > -1;
+	}
+
+	/* Disable tracking if the opt-out cookie exists. */
+	if ( __gaTrackerIsOptedOut() ) {
+		window[disableStr] = true;
+	}
+
+	/* Opt-out function */
+	function __gaTrackerOptout() {
+	  document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+	  window[disableStr] = true;
+	}
+
+	if ( 'undefined' === typeof gaOptout ) {
+		function gaOptout() {
+			__gaTrackerOptout();
+		}
+	}
+
+	if ( em_track_user ) {
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');
+
+window.ga = __gaTracker;		__gaTracker('create', 'UA-58488668-6', 'auto');
+		__gaTracker('set', 'forceSSL', true);
+		__gaTracker('send','pageview');
+		__gaTracker( function() { window.ga = __gaTracker; } );
+	} else {
+		console.log( "" );
+		(function() {
+			/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+			var noopfn = function() {
+				return null;
+			};
+			var noopnullfn = function() {
+				return null;
+			};
+			var Tracker = function() {
+				return null;
+			};
+			var p = Tracker.prototype;
+			p.get = noopfn;
+			p.set = noopfn;
+			p.send = noopfn;
+			var __gaTracker = function() {
+				var len = arguments.length;
+				if ( len === 0 ) {
+					return;
+				}
+				var f = arguments[len-1];
+				if ( typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function' ) {
+					console.log( 'Not running function __gaTracker(' + arguments[0] + " ....) because you are not being tracked. " + em_no_track_reason );
+					return;
+				}
+				try {
+					f.hitCallback();
+				} catch (ex) {
+
+				}
+			};
+			__gaTracker.create = function() {
+				return new Tracker();
+			};
+			__gaTracker.getByName = noopnullfn;
+			__gaTracker.getAll = function() {
+				return [];
+			};
+			__gaTracker.remove = noopfn;
+			window['__gaTracker'] = __gaTracker;
+			window.ga = __gaTracker;		})();
+		}
+</script>
+<!-- / Google Analytics by ExactMetrics -->
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/alkhemylab.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.3.2"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://alkhemylab.com/wp-includes/css/dist/block-library/style.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wc-block-style-css'  href='https://alkhemylab.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/style.css?ver=2.5.14' type='text/css' media='all' />
+<link rel='stylesheet' id='Total_Soft_Cal-css'  href='https://alkhemylab.com/wp-content/plugins/calendar-event/CSS/Total-Soft-Calendar-Widget.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='fontawesome-css-css'  href='https://alkhemylab.com/wp-content/plugins/calendar-event/CSS/totalsoft.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='https://alkhemylab.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.1.6' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-plugin-settings-css'  href='https://alkhemylab.com/wp-content/plugins/revslider/public/assets/css/rs6.css?ver=6.1.5' type='text/css' media='all' />
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+#rs-demo-id {}
+</style>
+<style id='woocommerce-inline-inline-css' type='text/css'>
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link rel='stylesheet' id='aviana-mikado-default-style-css'  href='https://alkhemylab.com/wp-content/themes/aviana/style.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='aviana-mikado-modules-css'  href='https://alkhemylab.com/wp-content/themes/aviana/assets/css/modules.min.css?ver=5.3.2' type='text/css' media='all' />
+<style id='aviana-mikado-modules-inline-css' type='text/css'>
+/* generated in /dados01/sites/alkhemylab/public_html/wp-content/themes/aviana/framework/admin/options/general/map.php aviana_mikado_page_general_style function */
+.page-id-34971.mkdf-boxed .mkdf-wrapper { background-attachment: fixed;}
+
+
+</style>
+<link rel='stylesheet' id='mkdf-font_awesome-css'  href='https://alkhemylab.com/wp-content/themes/aviana/assets/css/font-awesome/css/font-awesome.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='mkdf-font_elegant-css'  href='https://alkhemylab.com/wp-content/themes/aviana/assets/css/elegant-icons/style.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='mkdf-ion_icons-css'  href='https://alkhemylab.com/wp-content/themes/aviana/assets/css/ion-icons/css/ionicons.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='mkdf-linea_icons-css'  href='https://alkhemylab.com/wp-content/themes/aviana/assets/css/linea-icons/style.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='mkdf-linear_icons-css'  href='https://alkhemylab.com/wp-content/themes/aviana/assets/css/linear-icons/style.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='mkdf-simple_line_icons-css'  href='https://alkhemylab.com/wp-content/themes/aviana/assets/css/simple-line-icons/simple-line-icons.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='mkdf-dripicons-css'  href='https://alkhemylab.com/wp-content/themes/aviana/assets/css/dripicons/dripicons.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='mediaelement-css'  href='https://alkhemylab.com/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.13-9993131' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css'  href='https://alkhemylab.com/wp-includes/js/mediaelement/wp-mediaelement.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='aviana-mikado-modules-responsive-css'  href='https://alkhemylab.com/wp-content/themes/aviana/assets/css/modules-responsive.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='aviana-mikado-google-fonts-css'  href='https://fonts.googleapis.com/css?family=Prata%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C800%7COpen+Sans%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C800%7CAmiri%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C800%7CRoboto%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C800&#038;subset=latin-ext&#038;ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='mikado-core-dashboard-style-css'  href='https://alkhemylab.com/wp-content/plugins/mikado-core/core-dashboard/assets/css/core-dashboard.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='dflip-icons-style-css'  href='https://alkhemylab.com/wp-content/plugins/3d-flipbook-dflip-lite/assets/css/themify-icons.min.css?ver=1.5.19' type='text/css' media='all' />
+<link rel='stylesheet' id='dflip-style-css'  href='https://alkhemylab.com/wp-content/plugins/3d-flipbook-dflip-lite/assets/css/dflip.min.css?ver=1.5.19' type='text/css' media='all' />
+<link rel='stylesheet' id='js_composer_front-css'  href='https://alkhemylab.com/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='um_fonticons_ii-css'  href='https://alkhemylab.com/wp-content/plugins/ultimate-member/assets/css/um-fonticons-ii.css?ver=2.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='um_fonticons_fa-css'  href='https://alkhemylab.com/wp-content/plugins/ultimate-member/assets/css/um-fonticons-fa.css?ver=2.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='select2-css'  href='https://alkhemylab.com/wp-content/plugins/ultimate-member/assets/css/select2/select2.min.css?ver=2.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='um_crop-css'  href='https://alkhemylab.com/wp-content/plugins/ultimate-member/assets/css/um-crop.css?ver=2.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='um_modal-css'  href='https://alkhemylab.com/wp-content/plugins/ultimate-member/assets/css/um-modal.css?ver=2.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='um_styles-css'  href='https://alkhemylab.com/wp-content/plugins/ultimate-member/assets/css/um-styles.css?ver=2.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='um_profile-css'  href='https://alkhemylab.com/wp-content/plugins/ultimate-member/assets/css/um-profile.css?ver=2.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='um_account-css'  href='https://alkhemylab.com/wp-content/plugins/ultimate-member/assets/css/um-account.css?ver=2.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='um_misc-css'  href='https://alkhemylab.com/wp-content/plugins/ultimate-member/assets/css/um-misc.css?ver=2.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='um_fileupload-css'  href='https://alkhemylab.com/wp-content/plugins/ultimate-member/assets/css/um-fileupload.css?ver=2.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='um_datetime-css'  href='https://alkhemylab.com/wp-content/plugins/ultimate-member/assets/css/pickadate/default.css?ver=2.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='um_datetime_date-css'  href='https://alkhemylab.com/wp-content/plugins/ultimate-member/assets/css/pickadate/default.date.css?ver=2.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='um_datetime_time-css'  href='https://alkhemylab.com/wp-content/plugins/ultimate-member/assets/css/pickadate/default.time.css?ver=2.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='um_raty-css'  href='https://alkhemylab.com/wp-content/plugins/ultimate-member/assets/css/um-raty.css?ver=2.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='um_scrollbar-css'  href='https://alkhemylab.com/wp-content/plugins/ultimate-member/assets/css/simplebar.css?ver=2.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='um_tipsy-css'  href='https://alkhemylab.com/wp-content/plugins/ultimate-member/assets/css/um-tipsy.css?ver=2.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='um_responsive-css'  href='https://alkhemylab.com/wp-content/plugins/ultimate-member/assets/css/um-responsive.css?ver=2.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='um_default_css-css'  href='https://alkhemylab.com/wp-content/plugins/ultimate-member/assets/css/um-old-default.css?ver=2.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='um_old_css-css'  href='https://alkhemylab.com/wp-content/plugins/ultimate-member/../../uploads/ultimatemember/um_old_settings.css?ver=5.3.2' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var exactmetrics_frontend = {"js_events_tracking":"true","download_extensions":"zip,mp3,mpeg,pdf,docx,pptx,xlsx,rar","inbound_paths":"[{\"path\":\"\\\/go\\\/\",\"label\":\"affiliate\"},{\"path\":\"\\\/recommend\\\/\",\"label\":\"affiliate\"}]","home_url":"https:\/\/alkhemylab.com","hash_tracking":"false"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-content/plugins/google-analytics-dashboard-for-wp/assets/js/frontend.min.js?ver=6.0.2'></script>
+<script type='text/javascript' data-cfasync="false" src='https://alkhemylab.com/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var object = {"ajaxurl":"https:\/\/alkhemylab.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-content/plugins/calendar-event/JS/Total-Soft-Calendar-Widget.js?ver=5.3.2'></script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-content/plugins/revslider/public/assets/js/revolution.tools.min.js?ver=6.0'></script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.1.5'></script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.70'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"Ver carrinho","cart_url":"https:\/\/alkhemylab.com","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=3.9.3'></script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-content/plugins/js_composer/assets/js/vendors/woocommerce-add-to-cart.js?ver=6.1'></script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-content/plugins/ultimate-member/assets/js/um-gdpr.min.js?ver=2.1.4'></script>
+<link rel='https://api.w.org/' href='https://alkhemylab.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://alkhemylab.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://alkhemylab.com/wp-includes/wlwmanifest.xml" />
+<meta name="generator" content="WordPress 5.3.2" />
+<meta name="generator" content="WooCommerce 3.9.3" />
+<link rel='shortlink' href='https://alkhemylab.com/?p=34971' />
+<link rel="alternate" type="application/json+oembed" href="https://alkhemylab.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Falkhemylab.com%2Foraculo-das-flores%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://alkhemylab.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Falkhemylab.com%2Foraculo-das-flores%2F&#038;format=xml" />
+<style type="text/css">
+                    .ctl-bullets-container {
+                display: table;
+                position: fixed;
+                right: 0;
+                height: 100%;
+                z-index: 1049;
+                font-weight: normal;
+            }</style>		<style type="text/css">
+			.request_name {
+				display: none !important;
+			}
+		</style>
+		<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	<script data-cfasync="false"> var dFlipLocation = "https://alkhemylab.com/wp-content/plugins/3d-flipbook-dflip-lite/assets/"; var dFlipWPGlobal = {"text":{"toggleSound":"Turn on\/off Sound","toggleThumbnails":"Toggle Thumbnails","toggleOutline":"Toggle Outline\/Bookmark","previousPage":"Previous Page","nextPage":"Next Page","toggleFullscreen":"Toggle Fullscreen","zoomIn":"Zoom In","zoomOut":"Zoom Out","toggleHelp":"Toggle Help","singlePageMode":"Single Page Mode","doublePageMode":"Double Page Mode","downloadPDFFile":"Download PDF File","gotoFirstPage":"Goto First Page","gotoLastPage":"Goto Last Page","share":"Share"},"moreControls":"download,pageMode,startPage,endPage,sound","hideControls":"","scrollWheel":"true","backgroundColor":"#777","backgroundImage":"","height":"auto","paddingLeft":"20","paddingRight":"20","controlsPosition":"bottom","duration":800,"soundEnable":"true","enableDownload":"true","webgl":"true","hard":"none","maxTextureSize":"1600","rangeChunkSize":"524288","zoomRatio":1.5,"stiffness":3,"singlePageMode":"0","autoPlay":"false","autoPlayDuration":5000,"autoPlayStart":"false"};</script><meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
+<meta name="generator" content="Powered by Slider Revolution 6.1.5 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<link rel="icon" href="https://alkhemylab.com/wp-content/uploads/2020/03/cropped-favicon-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://alkhemylab.com/wp-content/uploads/2020/03/cropped-favicon-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://alkhemylab.com/wp-content/uploads/2020/03/cropped-favicon-180x180.png" />
+<meta name="msapplication-TileImage" content="https://alkhemylab.com/wp-content/uploads/2020/03/cropped-favicon-270x270.png" />
+		<!-- Facebook Pixel Code -->
+		<script>
+						!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+				n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+				n.push=n;n.loaded=!0;n.version='2.0';n.agent='dvpixelcaffeinewordpress';n.queue=[];t=b.createElement(e);t.async=!0;
+				t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+				document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+			var aepc_pixel = {"pixel_id":"709458902503734","user":[],"enable_advanced_events":"yes","fire_delay":"0","enable_viewcontent":"no","enable_addtocart":"no","enable_addtowishlist":"no","enable_initiatecheckout":"no","enable_addpaymentinfo":"no","enable_purchase":"no","allowed_params":{"AddToCart":["value","currency","content_category","content_name","content_type","content_ids"],"AddToWishlist":["value","currency","content_category","content_name","content_type","content_ids"]}},
+				aepc_pixel_args = [],
+				aepc_extend_args = function( args ) {
+					if ( typeof args === 'undefined' ) {
+						args = {};
+					}
+
+					for(var key in aepc_pixel_args)
+						args[key] = aepc_pixel_args[key];
+
+					return args;
+				};
+
+			// Extend args
+			if ( 'yes' === aepc_pixel.enable_advanced_events ) {
+				aepc_pixel_args.userAgent = navigator.userAgent;
+				aepc_pixel_args.language = navigator.language;
+
+				if ( document.referrer.indexOf( document.domain ) < 0 ) {
+					aepc_pixel_args.referrer = document.referrer;
+				}
+			}
+
+						fbq('init', aepc_pixel.pixel_id, aepc_pixel.user);
+
+						setTimeout( function() {
+				fbq('track', "PageView", aepc_pixel_args);
+			}, aepc_pixel.fire_delay * 1000 );
+					</script>
+				<noscript><img height="1" width="1" style="display:none"
+		               src="https://www.facebook.com/tr?id=709458902503734&ev=PageView&noscript=1"
+			/></noscript>
+				<!-- End Facebook Pixel Code -->
+		<script type="text/javascript">function setREVStartSize(t){try{var h,e=document.getElementById(t.c).parentNode.offsetWidth;if(e=0===e||isNaN(e)?window.innerWidth:e,t.tabw=void 0===t.tabw?0:parseInt(t.tabw),t.thumbw=void 0===t.thumbw?0:parseInt(t.thumbw),t.tabh=void 0===t.tabh?0:parseInt(t.tabh),t.thumbh=void 0===t.thumbh?0:parseInt(t.thumbh),t.tabhide=void 0===t.tabhide?0:parseInt(t.tabhide),t.thumbhide=void 0===t.thumbhide?0:parseInt(t.thumbhide),t.mh=void 0===t.mh||""==t.mh||"auto"===t.mh?0:parseInt(t.mh,0),"fullscreen"===t.layout||"fullscreen"===t.l)h=Math.max(t.mh,window.innerHeight);else{for(var i in t.gw=Array.isArray(t.gw)?t.gw:[t.gw],t.rl)void 0!==t.gw[i]&&0!==t.gw[i]||(t.gw[i]=t.gw[i-1]);for(var i in t.gh=void 0===t.el||""===t.el||Array.isArray(t.el)&&0==t.el.length?t.gh:t.el,t.gh=Array.isArray(t.gh)?t.gh:[t.gh],t.rl)void 0!==t.gh[i]&&0!==t.gh[i]||(t.gh[i]=t.gh[i-1]);var r,a=new Array(t.rl.length),n=0;for(var i in t.tabw=t.tabhide>=e?0:t.tabw,t.thumbw=t.thumbhide>=e?0:t.thumbw,t.tabh=t.tabhide>=e?0:t.tabh,t.thumbh=t.thumbhide>=e?0:t.thumbh,t.rl)a[i]=t.rl[i]<window.innerWidth?0:t.rl[i];for(var i in r=a[0],a)r>a[i]&&0<a[i]&&(r=a[i],n=i);var d=e>t.gw[n]+t.tabw+t.thumbw?1:(e-(t.tabw+t.thumbw))/t.gw[n];h=t.gh[n]*d+(t.tabh+t.thumbh)}void 0===window.rs_init_css&&(window.rs_init_css=document.head.appendChild(document.createElement("style"))),document.getElementById(t.c).height=h,window.rs_init_css.innerHTML+="#"+t.c+"_wrapper { height: "+h+"px }"}catch(t){console.log("Failure at Presize of Slider:"+t)}};</script>
+		<style type="text/css" id="wp-custom-css">
+			#box_banho_ouro_mob{visibility:hidden!important; display:none!important;}
+
+#banner_home_mob, #gal_lab_mob, #gal_lab2_mobile{visibility:hidden!important; display:none!important;}
+
+body.page-id-34265 .mkdf-accordion-holder .mkdf-accordion-content,body.page-id-34265 .mkdf-accordion-holder .mkdf-accordion-content p {
+    margin: 0 0 45px 0!important;
+}
+
+body.page-id-34265 div.wpb_content_element div h3.cidade {
+	 margin: 0 0 0px 0!important;
+    font-size:15px!important;
+    line-height: 1.87em!important;
+    font-family: 'Roboto'!important;
+	color: #565656!important;
+	    font-weight: 300;
+	letter-spacing: .025em;
+	text-transform: initial!important;
+}
+
+body.page-id-34265 div.wpb_content_element div h3{margin:0px 0px 20px 0px!important; text-align:left!important;}
+
+body.page-id-34265 div.wpb_content_element div h1{margin:0px 0px 20px 0px!important; text-align:center!important;}
+
+#linha_txt_escola{margin-top:45px!important; margin-bottom:35px!important;}
+
+
+#wpcf7-f39455-p38971-o1 {text-align:center!important;}
+
+#wpcf7-f39455-p38971-o1 .wpcf7-submit{margin-top:30px!important;}
+
+#wpcf7-f39455-p38971-o1 .wpcf7-form-control.wpcf7mf-mask.wpcf7-mask,
+#wpcf7-f39455-p38971-o1 input[type=text], #wpcf7-f39455-p38971-o1 textarea, #wpcf7-f39455-p38971-o1 .post-password-form input[type=password], #wpcf7-f39455-p38971-o1 .wpcf7-form-control.wpcf7-date, #wpcf7-f39455-p38971-o1 .wpcf7-form-control.wpcf7-number, #wpcf7-f39455-p38971-o1 .wpcf7-form-control.wpcf7-quiz, #wpcf7-f39455-p38971-o1 .wpcf7-form-control.wpcf7-select, #wpcf7-f39455-p38971-o1 .wpcf7-form-control.wpcf7-text, #wpcf7-f39455-p38971-o1 .wpcf7-form-control.wpcf7-textarea, #wpcf7-f39455-p38971-o1 input[type=text], #wpcf7-f39455-p38971-o1 input[type=email], #wpcf7-f39455-p38971-o1 input[type=password] {
+    width: 100%;
+    margin: 0 0 13px!important;
+    padding: 12px 26px;
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 18px!important;
+    font-weight: 300;
+    color: #565656!important;
+    letter-spacing: .075em;
+    background-color: transparent!important;
+    border: 1px solid #bd9f7c!important;
+    border-radius: 9px;
+    outline: 0;
+    -webkit-appearance: none;
+    cursor: text;
+    box-sizing: border-box;
+    -webkit-transition: border-color .2s ease-in-out;
+    -moz-transition: border-color .2s ease-in-out;
+    transition: border-color .2s ease-in-out;
+}
+
+
+body {
+    font-family: "Roboto",sans-serif;
+    color: #565656!important;
+
+}
+
+.vc_btn3.vc_btn3-color-chino.vc_btn3-style-modern, #submit_comment, .post-password-form input[type=submit], input.wpcf7-form-control.wpcf7-submit,
+#submit_comment:hover, .post-password-form input[type=submit]:hover, input.wpcf7-form-control.wpcf7-submit:hover {
+    background-color: transparent!important;
+	  color:#FFFFFF!important;
+}
+
+.cool-timeline .timeline-post .timeline-content .content-title, .cool-timeline .timeline-post .timeline-icon .icon-placeholder span, .cool-timeline .timeline-year .icon-placeholder span, .cool-timeline-wrapper {
+    font-family: 'Roboto'!important;
+}
+
+.cool-timeline.compact .timeline-post .timeline-content h2.compact-content-title, .cool-timeline.compact .timeline-post .timeline-content h2.content-title, .cool-timeline .timeline-post .timeline-content h2.content-title, .cool-timeline .timeline-post .timeline-content h2.content-title-2, .cool-timeline .timeline-post .timeline-content h2.content-title-simple {
+    color: #bd9f7c;
+    text-transform: initial!important;
+    box-shadow: none;
+}
+
+.vc_custom_1586184585883{margin-left:13%!important;}
+#box_txt_magno_mobile{display:none!important;
+     visibility:hidden!important;}
+
+#box_txt_magno{display:table!important;
+     visibility:visible!important;
+    vertical-align: top;
+    margin: 0;
+    padding-left:0!important;
+    max-width: 100%;}
+
+
+#box_txt_kit_mobile{display:none!important;
+     visibility:hidden!important;
+    vertical-align: top;
+    margin: 0;
+    max-width: 100%;}
+
+#box_txt_oraculo.vc_custom_1585696448731{background-repeat:no-repeat!important;}
+
+#box_txt_oraculo .wp-image-37388 ,#box_txt_porque .wp-image-37388{padding-top:10%!important;}
+
+#box_txt_oraculo .wp-image-37388 {margin-bottom:30px!important;}
+
+#box_txt_anonovo_col1 .vc_column-inner{padding-left:0px!important;}
+
+
+#box_txt_magnotesla .vc_custom_1585664557527 {
+    padding-top: 35% !important;
+   }
+
+#box_txt_banhodeouro{padding-top:10%!important;}
+
+.vc_custom_1585664612244 {
+    padding-right: 13% !important;
+    padding-top: 25%!important;
+}
+
+body.page-id-37353 #box_txt_livros_col1{
+    padding-top: 10%!important;
+    padding-bottom: 8%!important;
+    padding-left:13%!important;
+}
+
+#box_alq_floral_gr div.wpb_content_element div h1,#box_alq_floral_gr div.wpb_content_element div h3{text-align:left!important;}
+
+#box_txt_sup_col2 {
+    margin: 10% 0%!important;
+}
+#box_txt_cos_alq_col2{margin:23% 0%!important;}
+
+
+
+#box_txt_manifesto{ padding-top:80px!important;}
+#box_txt_manifesto .wp-image-36592 {
+    border-bottom: 2px solid #bd9f7c!important;
+    margin: 0px 0px 30px 0px!important;
+    padding: 0px 0px 30px 0px!important;
+    display: inline!important;
+}
+
+#box_txt_manifesto h2{margin: 70px 0px 80px 0px!important;}
+body.page-id-37751 .mkdf-content{ margin-top: 39px!important;}
+
+
+#box_txt_alq_cont { padding-top:80px!important;}
+#box_txt_alq_cont .wp-image-36592 {
+    border-bottom: 2px solid #bd9f7c!important;
+    margin: 0px 0px 30px 0px!important;
+    padding: 0px 0px 30px 0px!important;
+    display: inline!important;
+}
+
+#box_txt_alq_cont h2{margin: 70px 0px 80px 0px!important;}
+
+
+#box_txt_joel{ padding-top:80px!important;}
+#box_txt_joel .wp-image-36592 {
+    border-bottom: 2px solid #bd9f7c!important;
+    margin: 0px 0px 30px 0px!important;
+    padding: 0px 0px 30px 0px!important;
+    display: inline!important;
+}
+
+#box_txt_joel h2{margin: 70px 0px 80px 0px!important;}
+
+#box_txt_depo img.wp-image-37388{    padding: 0px 0px 30px 0px!important;
+    margin-bottom: 60px!important;}
+
+#box_txt_depo h5{  padding: 30px 0px 00px 0px!important;
+    margin-bottom: 30px!important;}
+#box_txt_sist { padding-top:80px!important;}
+#box_txt_sist .vc_custom_1585149969564{padding-bottom:125px!important;}
+#box_txt_sist h2{margin: 70px 0px 80px 0px!important;}
+
+#box_txt_depo figure.vc_figure{padding-top:195px!important;}
+
+#box_txt_depo{padding-bottom:150px!important;}
+
+body.page-id-34430 #box_txt_amb_col1{margin-bottom:150px!important;}
+
+body.page-id-37234 #box_txt_amb_col1 {padding:10% 0px 8% 0px!important;}
+
+#box_txt_florais_sutis{padding:10% 0px 8% 0px !important; }
+#box_txt_florais_sutis h2 {
+    margin: 70px 0px 30px 0px !important;
+    padding: 0px 0px 30px 0px!important;
+}
+/*------------------------------------Final ajustes de cada pagina margin e espaços-------------------------------*/
+
+#box_txt_faq{margin:80px 0px 150px!important;}
+
+
+ #box_resp_social, #box_resp_social_gr, .vc_custom_1585582417726, #box_alq_floral_gr, #box_alq_floral, #box_cos_alq_gr, #box_cos_alq, #box_aro_alq_gr, #box_aro_alq{
+    min-height: 30vh!important;
+}
+
+
+/*MENU MOBILE*/
+
+.mkdf-mobile-header .mkdf-mobile-nav {
+    display: none;
+    background-color: #152c3b!important;
+    border-bottom: 1px solid #d1d3d4;
+    color: #bd9f7c!important;
+}
+
+.mkdf-mobile-header .mkdf-mobile-nav ul li a, .mkdf-mobile-header .mkdf-mobile-nav ul li h6 {
+    position: relative;
+    display: block;
+    padding: 9px 0;
+    margin: 0;
+    color: #bd9f7c!important;
+    border-bottom: 1px solid #bd9f7c!important;
+    cursor: pointer;
+}
+
+
+.mkdf-mobile-header .mkdf-mobile-nav .mobile_arrow {
+
+    color: #bd9f7c!important;
+}
+
+.mkdf-mobile-header .mkdf-mobile-nav .mkdf-grid>ul>li.mkdf-active-item>a, .mkdf-mobile-header .mkdf-mobile-nav .mkdf-grid>ul>li.mkdf-active-item>h6, .mkdf-mobile-header .mkdf-mobile-nav ul li a:hover, .mkdf-mobile-header .mkdf-mobile-nav ul li h6:hover, .mkdf-mobile-header .mkdf-mobile-nav ul ul li.current-menu-ancestor>a, .mkdf-mobile-header .mkdf-mobile-nav ul ul li.current-menu-ancestor>h6, .mkdf-mobile-header .mkdf-mobile-nav ul ul li.current-menu-item>a, .mkdf-mobile-header .mkdf-mobile-nav ul ul li.current-menu-item>h6 {
+    color: #ffffff!important;
+}
+
+/*busca terapeutas*/
+.um-profile-photo a.um-profile-photo-img {
+    float: left;
+    position: absolute;
+    background: #fff;
+    border-radius: 100%;
+    border: 1px solid #bd9f7c!important;
+    border-bottom: 1px solid #bd9f7c !important;
+    overflow: hidden;
+    left: 0;
+      color:#fff!important;
+}
+
+body.page-id-28837 .um-field-divider {
+    width: 100%;
+    margin: 0 0 12px 0;
+    height: 24px;
+
+    border-bottom: solid 2px #bd9f7c!important;
+    position: relative;
+}
+
+body.page-id-28837 .um-header {
+    position: relative;
+    padding: 0 0 25px 0;
+    border-bottom: solid 2px #bd9f7c!important;
+    min-height: 85px;
+    box-sizing: content-box !important;
+}
+
+body.page-id-28837 .um-field-divider-text span {
+     font-size: 16px;
+    line-height: 26px;
+    color:#bd9f7c!important;
+      font-family: 'Amiri';
+    font-weight: 700;
+    text-transform:uppercase!important;
+}
+
+body.page-id-28837 .um-profile.um .um-name a {
+     font-size: 16px;
+    line-height: 26px;
+    color:#152c3b!important;
+      font-family: 'Amiri';
+    font-weight: 700;
+    text-transform:uppercase!important;
+}
+
+body.page-id-28837 .um-profile.um-viewing .um-field-label {
+    display: block;
+    margin: 0 0 8px 0;
+    border-bottom:2px solid #bd9f7c!important;
+    padding-bottom: 4px;
+}
+
+body.page-id-28837 .um-field-area {
+    font-size: 15px;
+    line-height: 25px;
+    color:#152c3b!important;
+      font-family: 'Roboto';
+    font-weight: 300;
+
+}
+
+
+body.page-id-28837 .um-field-label label {
+    font-size: 15px !important;
+    line-height: 22px !important;
+    color:#bd9f7c!important;
+      font-family: 'Amiri';
+    font-weight: 700;
+    text-transform:uppercase!important;
+}
+
+
+
+body.page-id-35438 .mkdf-page-header .mkdf-menu-area,body.page-id-35438 .mkdf-page-header {
+    background: transparent url('/wp-content/uploads/2020/03/fundo_menu_home.png')0 0!important;
+    height:120px!important;
+}
+
+.mkdf-page-header .mkdf-menu-area {
+    background-color: #002a3a!important;
+    border-bottom: 1px solid #bd9f7c!important;
+}
+
+
+.mkdf-main-menu>ul>li>a {
+    padding: 0 29px;
+    color: #000;
+  font-family: Amiri!important;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: .2em;
+    text-transform: capitalize;
+    box-sizing: border-box;
+}
+
+.wp-image-36592{border-bottom:2px solid #bd9f7c!important; margin:0px 0px 56px 0px!important;}
+
+div.wpb_content_element div h1, div.wpb_content_element div h3{color:#bd9f7c!important; margin:0px 0px 0px 0px!important; text-align:right!important;}
+
+div.wpb_content_element div h3{font-size:30px!important; margin:0px 0px 380px!important;}
+
+body.page-id-34269 .mkdf-content {
+    margin-top: 0!important;
+    z-index: 100;
+    background-color: #fff;
+}
+
+
+
+
+
+
+
+.vc_btn3.vc_btn3-color-grey.vc_btn3-style-modern {
+    font-family: 'Amiri'!important;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: auto;
+    outline: 0;
+    font-size: 13px;
+    line-height: 2em;
+    letter-spacing: .2em;
+    font-weight: 600;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    margin: 0;
+    -webkit-transition: color .2s ease-in-out,background-color .2s ease-in-out,border-color .2s ease-in-out;
+    -moz-transition: color .2s ease-in-out,background-color .2s ease-in-out,border-color .2s ease-in-out;
+    transition: color .2s ease-in-out,background-color .2s ease-in-out,border-color .2s ease-in-out;
+    color: #bd9f7c!important;
+    background-color: transparent;
+    border: 1px solid #bd9f7c!important;
+    padding: 15px 46px;
+    cursor: pointer;
+    border-radius: 9px!important;
+}
+
+body.page-id-28837 div.mkdf-container{
+      background-color:transparent!important;
+    }
+
+body.page-id-28837 div.mkdf-container{ background-image: url(/wp-content/uploads/2020/03/mandala_busca_final.jpg) !important;
+      background-position: center!important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;}
+
+.um-directory .um-members-wrapper .um-members.um-members-grid .um-member .um-member-photo a img {
+    display: inline !important;
+    border: 1px solid #bd9f7c!important;
+    background: #fff;
+    width: 140px;
+    height: 140px;
+    float: none !important;
+}
+
+.um-directory .um-members-wrapper .um-members.um-members-grid .um-member .um-member-card .um-member-name a {
+    font-size: 16px;
+    line-height: 26px;
+    color:#152c3b!important;
+      font-family: 'Amiri';
+    font-weight: 700;
+    text-transform:uppercase!important;
+}
+
+.um-directory .um-members-wrapper .um-members .um-member {
+    border: 1px solid #bd9f7c!important;
+}
+
+.um .um-field-group-head, .picker__box, .picker__nav--prev:hover, .picker__nav--next:hover, .um .um-members-pagi span.current, .um .um-members-pagi span.current:hover, .um .um-profile-nav-item.active a, .um .um-profile-nav-item.active a:hover, .upload, .um-modal-header, .um-modal-btn, .um-modal-btn.disabled, .um-modal-btn.disabled:hover, div.uimob800 .um-account-side li a.current, div.uimob800 .um-account-side li a.current:hover {
+    background: #bd9f7c!important;
+}
+
+#box_alq_cont div.wpb_content_element div h1, #box_alq_cont div.wpb_content_element div h3, #box_alq_cont_gr div.wpb_content_element div h1, #box_alq_cont_gr div.wpb_content_element div h3 {
+    color:#bd9f7c!important;
+
+}
+
+div.mkdf-logo-area .mkdf-vertical-align-containers .mkdf-position-center-inner{    display: inline-block;
+    margin: 20px 0 0 0px!important;
+    vertical-align: top;
+}
+
+.mkdf-main-menu>ul>li>a {
+        text-transform: initial!important;
+
+}
+.mkdf-page-header .mkdf-menu-area{background-color:#152c3b!important; border-bottom:2px solid #bd9f7c!important;}
+
+.mkdf-drop-down .narrow .second .inner ul {
+
+    background-color: #152c3b!important;
+    }
+
+
+.mkdf-main-menu ul li a {
+    font-size: 15px;
+    line-height: 22px;
+    color: #bd9f7c!important;
+}
+
+.mkdf-drop-down .second .inner ul li.current-menu-ancestor>a, .mkdf-drop-down .second .inner ul li.current-menu-item>a {
+    color: #ffffff!important;
+}
+
+.vc_custom_1585081090821{min-height:81vh!important;}
+body {
+    line-height: 1.87em!important;
+font-family:'Roboto'!important;}
+
+
+
+body.page-id-37378 #box_alq_cont_gr.vc_row.vc_row-o-full-height{min-height:30vh!important;}
+
+body.page-id-37378 .vc_custom_1584635682141, .vc_custom_1584647632672{background-size:cover!important;
+background-repeat:no-repeat!important;}
+
+.vc_custom_1585345519258,
+.vc_custom_1584802786651,
+.vc_custom_158508563568, .vc_custom_1585085993566, .vc_custom_1585086216028,  .vc_custom_1585077933277{min-height:30vh!important;}
+
+ #box_livro, #box_kit_anonovo{visibility:hidden!important; display:none!important;
+    background-repeat:no-repeat!important;
+}
+
+.mkdf-main-menu>ul>li>a {
+     font-size: .8em!important;
+    }
+
+footer .widget .textwidget {
+    color: #fff;
+    font-size: .834em!important;
+}
+
+h1 {
+    font-size: 2.8em!important;}
+
+div.wpb_content_element div h3{font-size: 1.5em!important;}
+
+.vc_custom_1584405397438 {
+
+    background-position: center !important;
+        background-size:contain!important;
+        background-repeat:no-repeat!important;
+}
+
+
+footer a.mkdf-social-icon-widget-holder {
+    margin: 15px 0 15px 10px!important;}
+
+body.page-id-35438 div.mkdf-menu-area{height:120px!important;}
+
+body.page-id-35438 .mkdf-logo-wrapper a img {
+    height: 49px!important;
+    width: auto;}
+
+/*Esconder Vitrine e ajustar layout sem a vitrine*/
+
+
+
+
+body.page-id-37353
+#box_txt_amb_col1 .wpb_content_element, body.page-id-37338  #box_txt_amb_col1 .wpb_content_element {
+    padding-top: 23%!important;
+    padding-left: 13%!important;
+}
+
+body.page-id-37234  #box_txt_amb_col1 .wpb_content_element {
+    padding-top: 3%!important;
+    padding-left: 23%!important;
+}
+/*Final*/
+
+.vc_custom_1584639000168 {
+    background-size: cover!important;
+}
+
+.vc_custom_1584650572630 {
+    background-size: cover!important;
+    background-repeat:no-repeat!important;
+}
+
+#box_amb_gr.vc_row.vc_row-o-full-height{min-height:30vh!important;}
+
+
+#box_lab_gr.vc_row.vc_row-o-full-height{min-height:30vh!important;}
+
+div.mkdf-grid-row .mkdf-sidebar-holder{display:none!important;}
+.um .um-form input[type=text], .um .um-form input[type=tel], .um .um-form input[type=password], .um .um-form textarea {
+    color: #666666!important;
+}
+
+.um input[type=submit].um-button, .um input[type=submit].um-button:focus, .um a.um-button, .um a.um-button.um-disabled:hover, .um a.um-button.um-disabled:focus, .um a.um-button.um-disabled:active {
+    background: transparent!important;
+  color:#bd9f7c!important;font-family: 'Amiri'!important;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: auto;
+    outline: 0;
+    font-size: 13px;
+    line-height: 2em;
+    letter-spacing: .2em;
+    font-weight: 600;
+    box-sizing: border-box;
+    margin: 0;
+    -webkit-transition: color .2s ease-in-out,background-color .2s ease-in-out,border-color .2s ease-in-out;
+    -moz-transition: color .2s ease-in-out,background-color .2s ease-in-out,border-color .2s ease-in-out;
+    transition: color .2s ease-in-out,background-color .2s ease-in-out,border-color .2s ease-in-out;
+
+    background-color: transparent;
+    border: 1px solid #bd9f7c!important;
+    padding: 15px 46px;
+    cursor: pointer;
+    border-radius: 9px!important;
+    text-transform:uppercase!important;
+}
+
+
+.select2.select2-container .select2-selection{
+    background: transparent!important;
+  color:#bd9f7c!important;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: auto;
+    outline: 0;
+    -webkit-transition: color .2s ease-in-out,background-color .2s ease-in-out,border-color .2s ease-in-out;
+    -moz-transition: color .2s ease-in-out,background-color .2s ease-in-out,border-color .2s ease-in-out;
+    transition: color .2s ease-in-out,background-color .2s ease-in-out,border-color .2s ease-in-out;
+    background-color: transparent;
+    border: 1px solid #bd9f7c!important;
+    padding: 15px 46px;
+    cursor: pointer;
+    border-radius: 9px!important;}
+
+.um .um-form input[type=text], .um .um-form input[type=tel], .um .um-form input[type=number], .um .um-form input[type=password], .um .um-form textarea, .um .upload-progress, .select2-container .select2-choice, .select2-drop, .select2-container-multi .select2-choices, .select2-drop-active, .select2-drop.select2-drop-above {
+     border-radius: 9px!important;
+    border: 1px solid #bd9f7c!important;
+}
+
+.um-field-checkbox-state i, .um-field-radio-state i {
+    font-size: 24px;
+    line-height: 24px;
+    height: 24px;
+    color: #bd9f7c!important;
+
+
+    transition: all .2s linear;
+}
+
+#linha_txt_resultado div.wpb_wrapper{margin-bottom:80px!important;}
+
+body.page-id-34271 #linha_lab_etapas {
+    margin-bottom: 80px!important;
+    padding-top: 80px!important;
+    padding-bottom:80px!important;
+    border-bottom: 2px solid #bd9f7c!important;
+     border-top: 2px solid #bd9f7c!important;
+}
+body.page-id-34271 h2{margin: 0px 0 20px 0px!important;}
+
+body.page-id-34271 #linha_txt_resultado {
+    margin: 0px 0px!important;
+}
+.vc_custom_1584640115563{background-repeat:no-repeat!important;}
+
+#box_aro_alq{visibility:hidden!important; display:none!important;
+    background-repeat:no-repeat!important;
+}
+
+    #box_aro_alq_425{visibility:hidden!important; display:none!important;
+    background-repeat:no-repeat!important;
+}
+
+div.vc_column_container div.vc_column-inner{padding-top:0px!important;}
+#box_txt_cos_alq_col1 div.vc_column-inner {
+    padding-top: 0px!important;
+    padding-left: 0px!important;
+}
+
+#box_cos_alq{visibility:hidden!important; display:none!important;
+    background-repeat:no-repeat!important;
+}
+
+    #box_cos_alq_425{visibility:hidden!important; display:none!important;
+    background-repeat:no-repeat!important;
+}
+
+
+#box_produtos .vc_btn3.vc_btn3-size-lg {
+
+    width: 75%!important;
+ }
+
+#box_produtos .vc_btn3.vc_btn3-color-chino.vc_btn3-style-modern {
+    color: #fff!important;
+    border-color: #bd9f7c!important;
+    background-color: #bd9f7c!important;
+       font-family:'Amiri'!important;
+}
+
+#box_produtos h5{margin:20px 0px 20px 0!important;}
+
+#box_produtos div div.vc_column-inner{border:1px solid #bd9f7c!important;}
+
+#box_alq_floral{visibility:hidden!important; display:none!important;
+    background-repeat:no-repeat!important;
+}
+
+    #box_alq_floral_425{visibility:hidden!important; display:none!important;
+    background-repeat:no-repeat!important;
+}
+
+
+
+.wpb-js-composer .vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel.vc_active .vc_tta-panel-title>a {
+    color: #ffffff!important;
+      background-color: #bd9f7c!important;
+}
+
+.wpb-js-composer .vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel .vc_tta-panel-title>a {
+    color: #bd9f7c!important;
+}
+
+.wpb-js-composer .vc_tta-color-grey.vc_tta-style-classic .vc_tta-controls-icon::after, .wpb-js-composer .vc_tta-color-grey.vc_tta-style-classic .vc_tta-controls-icon::before {
+    border-color: #bd9f7c!important;
+}
+
+.wpb-js-composer .vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel .vc_tta-panel-heading {
+      color: #bd9f7c!important;
+    border-color: #f0f0f0;
+    background-color: transparent!important;
+    margin-bottom:10px!important;
+}
+
+.wpb-js-composer .vc_tta-color-grey.vc_tta-style-classic .vc_active .vc_tta-panel-heading .vc_tta-controls-icon::after, .wpb-js-composer .vc_tta-color-grey.vc_tta-style-classic .vc_active .vc_tta-panel-heading .vc_tta-controls-icon::before {
+    border-color: #ffffff!important;
+}
+    #box_faq{visibility:hidden!important; display:none!important;
+    background-repeat:no-repeat!important;
+}
+
+    #box_faq_425{visibility:hidden!important; display:none!important;
+    background-repeat:no-repeat!important;
+}
+
+#box_txt_amb_col1 .wpb_content_element{padding-top:23%!important; padding-left:23%!important;}
+
+#box_txt_amb_col2  div.vc_column-inner{padding-top:0px!important; padding-right:0px!important;}
+
+#box_txt_amb div div.vc_column-inner{padding-top:0px!important;}
+
+body.page-id-34624 div.wpb_content_element div h1,body.page-id-34624 div.wpb_content_element div h3 {
+    color: #bd9f7c!important;
+    margin: 0px 0px 0px 0px!important;
+    text-align: center!important;
+}
+
+body.page-id-38971 div.wpb_content_element div h1, body.page-id-38971 div.wpb_content_element div h3 {
+    color: #bd9f7c!important;
+    margin: 0px 0px 0px 0px!important;
+    text-align: left!important;
+}
+body.page-id-34265 .mkdf-content,
+body.page-id-38971 .mkdf-content,
+body.page-id-34263 .mkdf-content,
+body.page-id-34624 .mkdf-content,
+body.page-id-35869 .mkdf-content,
+body.page-id-38002 .mkdf-content,
+body.page-id-37751 .mkdf-content,
+body.page-id-28860 .mkdf-content,
+body.page-id-28839  .mkdf-content,
+body.page-id-28969 .mkdf-content,
+body.page-id-28982 .mkdf-content,
+body.page-id-28837 .mkdf-content,
+body.page-id-28862 .mkdf-content,
+body.page-id-37370 .mkdf-content,
+body.page-id-37424 .mkdf-content,
+body.page-id-28865 .mkdf-content, body.page-id-37378 .mkdf-content, body.page-id-37322 .mkdf-content,  body.page-id-37306 .mkdf-content,body.page-id-36173 .mkdf-content, body.page-id-35975 .mkdf-content,body.page-id-37097 .mkdf-content, body.page-id-34430 .mkdf-content {
+    margin-top: 0px!important;}
+
+
+
+
+
+
+
+#box_amb, #box_amb_425{visibility:hidden!important; display:none!important;
+    background-repeat:no-repeat!important;}
+body.page-id-37370 .vc_custom_1584613507944,
+body.page-id-37370  .vc_custom_1584613448621,
+body.page-id-37424 .vc_custom_1584655835237,
+body.page-id-37424 .vc_custom_1584655708605,.vc_custom_1584610745293,.vc_custom_1584606807484,.vc_custom_1584604417809,.vc_custom_1584597470181, .vc_custom_1584550986012{background-size:cover!important;
+    background-position:top right!important;
+    min-height:30vh!important;}
+
+.vc_custom_1584650598607,
+.vc_custom_1584604490958,.vc_custom_1584588808202, .vc_custom_1584597402941{background-size:cover!important;
+    background-position:top center!important;
+    min-height:30vh!important;}
+
+
+ .vc_custom_1584610722338,.vc_custom_1584601268979,.vc_custom_1584588465115, .vc_custom_1584557376383,.vc_custom_1584550906662, .vc_custom_1584532723115{background-size:cover!important;
+    background-position:top left!important;
+    min-height:30vh!important;}
+.vc_custom_1585370345202,
+.vc_custom_1584507184305 {
+    background-size:cover!important;
+    background-position:top center!important;
+    min-height:30vh!important;
+}
+
+#box_resp_social, #box_resp_social_425{visibility:hidden!important; display:none!important;
+    background-repeat:no-repeat!important;
+}
+
+#box_txt_historia {padding-top:0px!important;
+padding-left:24.5%!important;
+padding-right:24.5%!important;}
+
+
+#box_tit_historia {padding-top:120px!important;
+padding-left:13%!important;
+padding-right:13%!important;}
+
+body.page-id-35662 .mkdf-content {
+    margin-top: 0px!important;
+    padding-top:0px!important;}
+
+
+#txt_box_lab {
+    padding-bottom: 95px!important;
+    padding-top:115px!important;
+}
+
+body.page-id-37353 .mkdf-content, body.page-id-37338 .mkdf-content, body.page-id-34271 .mkdf-content {
+    margin-top: 0!important;
+    z-index: 100;
+    background-color: #fff;
+}
+#box_lab_gr.vc_custom_1584482100121 {
+    background-size: cover!important;
+    background-position: center!important;
+    min-height: 30vh!important;
+}
+
+body.page-id-34271 .vc_custom_1584482100121 {
+
+    background-size: cover!important;
+    background-position: center!important;
+    min-height: 30vh!important;
+}
+
+body.page-id-37275 .mkdf-content, body.page-id-34971 .mkdf-content {
+    margin-top: 0!important;
+ }
+
+#box_oraculo_gr.vc_row.vc_row-o-full-height, #box_oraculo {
+    min-height: 30vh!important;
+}
+.vc_custom_1584427541186 {background-size:cover!important;}
+
+.vc_custom_1584427676939 {
+    padding-top: 0% !important;
+    padding-left: 0% !important;
+}
+
+#box_oraculo, #box_oraculo_425{visibility:hidden!important; display:none!important;
+    background-repeat:no-repeat!important;
+}
+.mkdf-header-centered .mkdf-page-header .mkdf-logo-area {
+    height: 130px!important;
+    overflow: visible;
+    z-index: 2;
+    box-sizing: border-box;
+}
+
+#box_alq_cont_gr.vc_row.vc_row-o-full-height{min-height:30vh!important;}
+
+
+#box_alq_cont_gr.vc_custom_1584405616187,
+.vc_custom_1584417022041 {
+    background-size: cover!important;
+    background-position:top center!important;
+}
+
+#box_sist_joel_aleixo_gr .vc_custom_1584419610570{padding:0px!important;}
+
+#box_joel_aleixo_gr div.wpb_content_element div h1, #box_joel_aleixo_gr div.wpb_content_element div h3 {
+
+    margin: 0px 0px 0px 0px!important;
+    text-align: right!important;
+}
+
+#box_joel_aleixo_gr div.wpb_content_element div h3 {
+
+}
+#box_alq_cont div.wpb_content_element div h1, #box_alq_cont div.wpb_content_element div h3,
+#box_alq_cont_gr div.wpb_content_element div h1, #box_alq_cont_gr div.wpb_content_element div h3 {
+    color: #bd9f7c!important;
+    text-align: left!important;
+}
+
+
+body.page-id-35438  .mkdf-content {
+    margin-top: -260px!important;
+    z-index: 100;
+    background-color: #fff;
+}
+body.page-id-37234 .mkdf-content,body.page-id-36723 .mkdf-content, body.page-id-34267 .mkdf-content {
+    margin-top: 0px!important;
+    z-index: 100;
+    background-color: #fff;
+}
+
+.mkdf-main-menu>ul>li>a{
+    padding: 0 29px;
+    color: #bd9f7c!important;
+    font-family: Amiri!important;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: .032em;
+    text-transform: capitalize;
+    box-sizing: border-box;
+}
+
+.mkdf-main-menu ul li#nav-menu-item-36609 a i:before, .mkdf-main-menu ul li#nav-menu-item-36610 a i:before, .mkdf-main-menu ul li#nav-menu-item-36611 a i:before {
+    margin:0px 0px!important;
+}
+
+
+
+ .mkdf-main-menu ul li#nav-menu-item-37451>a {
+    border-right:0!important;
+    }
+
+.mkdf-main-menu ul li#nav-menu-item-36609>a, .mkdf-main-menu ul li#nav-menu-item-36610>a, .mkdf-main-menu ul li#nav-menu-item-36611>a {
+    border-right:0!important;
+}
+
+
+.mkdf-main-menu>ul>li>a {
+    padding: 0 15px!important;
+
+}
+
+
+  .mkdf-page-header>div .mkdf-main-menu>ul>li.mkdf-active-item>a,.mkdf-page-header>div .mkdf-main-menu>ul>li>a,.mkdf-page-header>div .mkdf-main-menu>ul>li>a:hover {
+    color: #bd9f7c!important;
+    border-right: 1px solid #bd9f7c!important;
+    margin:50px 0px 0px 0px!important;
+    height: 20%!important;
+}
+
+
+
+li#nav-menu-item-36609 a, li#nav-menu-item-36610 a, li#nav-menu-item-36611 a{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    color: #d6b981;
+
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+
+}
+
+.mkdf-main-menu ul li#nav-menu-item-36609 a>span.item_outer, .mkdf-main-menu ul li#nav-menu-item-36610 a>span.item_outer, .mkdf-main-menu ul li#nav-menu-item-36611 a>span.item_outer{    border: 1px solid #bd9f7c!important;
+    display: block;
+    float: left;
+    width: 30px;
+    height: 30px;
+    border-radius: 18px;
+    margin-right: 0px!important; /*space between*/}
+
+.mkdf-main-menu>ul>li#nav-menu-item-36609>a, .mkdf-main-menu>ul>li#nav-menu-item-36610>a, .mkdf-main-menu>ul>li#nav-menu-item-36611>a{
+padding: 0 0px 0px  10px!important;
+}
+#nav-menu-item-36609 a span.item_text, #nav-menu-item-36609 a span.item_text, #nav-menu-item-36610 a span.item_text, #nav-menu-item-36609 a span.item_text, #nav-menu-item-36611 a span.item_text{ display:none!important;}
+
+footer .widget .mkdf-widget-title-holder .mkdf-widget-title{
+    margin: 0px 0 10px 0px!important;
+    color: #bd9f7c!important;
+    line-height: 1.3em;
+    letter-spacing:0.2px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Amiri'!important;
+}
+
+
+section.vc_cta3-container {
+    position: relative;
+    padding-top: 40%;
+}
+
+section.vc_cta3-container .vc_general {
+    position: absolute;
+    top: 0; left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.vc_custom_1585346323034,
+section.vc_cta3-container div {
+
+    background-size: contain!important;
+    background-repeat:no-repeat!important;
+    background-position: center!important;
+}
+
+section.vc_cta3-container div h3{
+    color:#bd9f7c!important;
+    font-size: .9em;
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    margin: 0;
+}
+
+
+.vc_general.vc_cta3 {
+    border: 1px solid transparent;
+    font-size: 1em;
+    padding: 0 !important;
+    word-wrap: break-word;
+}
+
+.mkdf-dark-header .mkdf-page-header>div:not(.mkdf-sticky-header):not(.fixed) .mkdf-main-menu>ul>li.mkdf-active-item>a, .mkdf-dark-header .mkdf-page-header>div:not(.mkdf-sticky-header):not(.fixed) .mkdf-main-menu>ul>li>a, .mkdf-dark-header .mkdf-page-header>div:not(.mkdf-sticky-header):not(.fixed) .mkdf-main-menu>ul>li>a:hover {
+    color: #bd9f7c!important;
+
+
+}
+
+#linha_txt_resultado div.wpb_content_element div h3 {
+    font-size: 30px!important;
+    margin: 0px 0px 0px!important;
+}
+
+#linha_txt_resultado{margin:130px 0px!important;}
+
+#linha_lab_etapas{margin-bottom:76px!important; border-bottom:2px solid #bd9f7c!important;}
+
+
+h4 {
+    font-size:15px!important;
+    color: #152c3b!important;
+    line-height: 1.3em;
+    font-family: 'Amiri';
+      letter-spacing:0.2px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 20px 0px;
+    color: #152c3b;
+    line-height: 1.3em;
+    font-family: 'Amiri';
+      letter-spacing:0.2px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.mkdf-content .mkdf-content-inner>.mkdf-container>.mkdf-container-inner, .mkdf-content .mkdf-content-inner>.mkdf-full-width>.mkdf-full-width-inner {
+    padding-top: 0px!important;
+}
+
+.vc_general.vc_cta3.vc_cta3-style-classic {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.vc_custom_1583937985014 {
+    background-image: url(https://alkhemylab.com/wp-content/uploads/2020/03/bt_joel_aleixo_fundo.png?id=36486) !important;
+    background-repeat: no-repeat!important;
+}
+
+.mkdf-page-footer {
+    background-color: #152c3b!important;
+}
+
+footer .widget .textwidget {
+    color: #fff;
+}
+
+footer .wpcf7-form-control.wpcf7-textarea{height:80px!important;}
+
+.vc_btn3.vc_btn3-color-chino.vc_btn3-style-modern,
+#submit_comment, .post-password-form input[type=submit], input.wpcf7-form-control.wpcf7-submit {
+    font-family: 'Amiri'!important;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: auto;
+    outline: 0;
+    font-size: 13px;
+    line-height: 2em;
+    letter-spacing: .2em;
+    font-weight: 600;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    margin: 0;
+    -webkit-transition: color .2s ease-in-out,background-color .2s ease-in-out,border-color .2s ease-in-out;
+    -moz-transition: color .2s ease-in-out,background-color .2s ease-in-out,border-color .2s ease-in-out;
+    transition: color .2s ease-in-out,background-color .2s ease-in-out,border-color .2s ease-in-out;
+    color: #bd9f7c!important;
+    background-color: transparent;
+    border: 1px solid #bd9f7c!important;
+    padding: 15px 46px;
+    cursor: pointer;
+    border-radius: 9px!important;
+}
+
+.mkdf-social-icon-widget-holder .mkdf-icon-border-inner {
+    box-shadow: 0 0 0 1px currentColor!important;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+    box-sizing: border-box;
+    -webkit-transition: all 0s ease-in-out;
+    -moz-transition: all 0s ease-in-out;
+    transition: all 0s ease-in-out;
+    width: 100%;
+    padding-top: 100%;
+    left: 0;
+}
+
+#mkdf-back-to-top>span {
+
+    border: 1px solid #d6b981;
+    border-radius:9px!important;
+}
+
+#mkdf-back-to-top .mkdf-back-to-top-inner {
+    border: 1px solid transparent!important;
+    margin: 2px;
+    box-sizing: border-box;
+    height: calc(100% - 4px);
+}
+
+.mkdf-page-footer .mkdf-footer-bottom-holder .mkdf-footer-bottom-inner.mkdf-grid {
+    padding: 0px 0!important;
+}
+
+.mkdf-social-icon-widget-holder .mkdf-social-icon-widget      {
+
+    font-size: 20px!important;
+    min-width:20px!important;
+}
+
+.mkdf-social-icon-widget-holder .mkdf-social-icon-widget.fa.fa-youtube-play      {
+
+    font-size: 22px!important;
+
+}
+
+#respond input[type=text], #respond textarea, .post-password-form input[type=password], .wpcf7-form-control.wpcf7-date, .wpcf7-form-control.wpcf7-number, .wpcf7-form-control.wpcf7-quiz, .wpcf7-form-control.wpcf7-select, .wpcf7-form-control.wpcf7-text, .wpcf7-form-control.wpcf7-textarea, input[type=text], input[type=email], input[type=password] {
+    width: 100%;
+    margin: 0 0 13px!important;
+    padding: 12px 26px;
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 18px!important;
+    font-weight: 300;
+    color: #fff!important;
+    letter-spacing: .075em;
+    background-color: transparent!important;
+    border: 1px solid #bd9f7c!important;
+    border-radius: 9px;
+    outline: 0;
+    -webkit-appearance: none;
+    cursor: text;
+    box-sizing: border-box;
+    -webkit-transition: border-color .2s ease-in-out;
+    -moz-transition: border-color .2s ease-in-out;
+    transition: border-color .2s ease-in-out;
+}
+
+.mkdf-page-footer .mkdf-footer-bottom-holder {
+
+    border-top: 1px solid #ffffff!important;
+}
+
+#box_lab, #box_lab_425{visibility:hidden!important;
+display:none!important;}
+
+
+
+#box_alq_cont, #box_alq_cont_425{visibility:hidden!important;
+display:none!important;}
+
+#box_sist_joel_aleixo_425{visibility:hidden!important; display:none!important;
+    background-repeat:no-repeat!important;
+}
+
+
+#box_sist_joel_aleixo{visibility:hidden!important; display:none!important;
+    background-repeat:no-repeat!important;
+}
+
+#box_joel_aleixo, #box_joel_aleixo_425{visibility:hidden!important;
+display:none!important;}
+
+#box_sist_joel_aleixo_gr.vc_row.vc_row-o-full-height {
+    min-height: 30vh!important;
+    }
+
+.wp-image-36592 {
+    border-bottom: 2px solid #bd9f7c!important;
+     margin: 0px 0px 0px 0px!important;
+      display:inline!important;
+}
+body.page-id-35438
+.vc_custom_1584372126526 {
+    padding-top: 158px !important;
+    padding-bottom: 106px !important;
+}
+
+body.page-id-35438 .vc_row.wpb_row.vc_row-fluid.mkdf-content-aligment-center{margin-bottom:11px!important;}
+
+
+
+
+
+.mkdf-logo-wrapper a img.mkdf-light-logo{height:69px!important;}
+
+
+.mkdf-main-menu>ul>li>a {
+    font-size: 1.3em!important;
+    font-weight:300!important;
+}
+
+
+.mkdf-header-centered .mkdf-page-header .mkdf-logo-area .mkdf-logo-wrapper a, .mkdf-page-header .mkdf-logo-area .mkdf-logo-wrapper a, .mkdf-page-header .mkdf-menu-area .mkdf-logo-wrapper a
+{height:69px!important;}
+
+
+.mkdf-main-menu ul li a .menu_icon_wrapper {
+
+padding:4px 5px!important;}
+
+body.page-id-37751 div.vc_custom_1585008327365 {
+    background-size: cover !important;
+}
+
+@media only screen and (max-width: 1440px){
+
+body.page-id-37751 div.vc_custom_1585008327365 {
+    background-size: contain !important;
+}
+
+
+.mkdf-main-menu ul li a .menu_icon_wrapper {
+
+padding:4px 3px!important;}
+
+
+.mkdf-header-centered .mkdf-page-header .mkdf-logo-area .mkdf-logo-wrapper a, .mkdf-page-header .mkdf-logo-area .mkdf-logo-wrapper a, .mkdf-page-header .mkdf-menu-area .mkdf-logo-wrapper a{height:49px!important;}
+
+.mkdf-main-menu>ul>li>a {
+    font-size: 0.8em!important;
+        font-weight:300!important;
+}
+
+
+
+.mkdf-logo-wrapper a img.mkdf-light-logo{height:49px!important;}
+
+
+
+#box_joel_aleixo_gr.vc_row.vc_row-o-full-height {
+    min-height: 51vh!important;
+    }
+
+
+#box_joel_aleixo_gr .vc_custom_1584387357633 {
+    padding-top: 0% !important;
+    padding-left: 65% !important;
+}
+
+#box_alq_cont_gr.vc_row.vc_row-o-full-height {
+    min-height: 30vh!important;
+}
+
+}
+
+
+
+@media only screen and (max-width: 1366px){
+
+#box_joel_aleixo_gr.vc_row.vc_row-o-full-height {
+    min-height: 51vh!important;
+    }
+
+#box_joel_aleixo_gr  .vc_custom_1585012795684 {
+    padding-top: 0px !important;
+    padding-left: 45% !important;
+}
+
+#box_joel_aleixo_gr .vc_custom_1584387357633 {
+    padding-top: 0% !important;
+    padding-left: 65% !important;
+}
+}
+
+
+@media only screen and (max-width: 1280px){
+.mkdf-page-header .mkdf-vertical-align-containers {
+    padding: 0 40px 0px 10px;
+    }
+
+#box_alq_cont_gr.vc_row.vc_row-o-full-height {
+    min-height: 30vh!important;
+}
+}
+
+
+@media only screen and (max-width: 1156px){
+
+#box_alq_cont_gr.vc_row.vc_row-o-full-height {
+    min-height: 30vh!important;
+}
+}
+
+
+@media only screen and (max-width: 1024px){
+
+    body.page-id-35438 .vc_custom_1584373774406 {
+    padding-right: 15px !important;
+}
+
+    div.wpb_content_element div h1{font-size:3em!important;}
+    div.wpb_content_element div h3{font-size:2em!important;}
+
+#box_joel_aleixo_gr.vc_row.vc_row-o-full-height {
+    min-height: 51vh!important;
+}
+
+    body.page-id-35438 .mkdf-sidebar-holder{display:none!important;}
+    body.page-id-35438 .vc_custom_1584372601868 {
+   background-position:top center!important;
+}
+
+
+    .vc_cta3-container {
+    margin-bottom: 0px!important;
+    margin-left: auto;
+    margin-right: auto;
+}
+.vc_custom_1584372126526 {
+    padding-top: 60px !important;
+    padding-bottom: 54px !important;
+}
+}
+
+
+@media only screen and (max-width: 768px){
+
+
+
+	header .mkdf-grid{width: 95%!important;}
+
+body.page-id-37322 div.wpb_content_element div h1, body.page-id-37353 div.wpb_content_element div h1, body.page-id-37370 div.wpb_content_element div h1, body.page-id-34971 div.wpb_content_element div h1{height:114px!important;
+vertical-align:middle!important;}
+
+
+body.page-id-38971 div.wpb_content_element div h1, body.page-id-38971 div.wpb_content_element div h3{vertical-align:middle!important; height:114px!important;}
+
+#box_oraculo_gr.vc_row.vc_row-o-full-height, #box_oraculo {
+    min-height: 114px!important;
+}
+
+	#box_txt_amb_col1 div.vc_column-inner{padding-left:30px!important;}
+
+#box_amb_gr.vc_row.vc_row-o-full-height {
+    min-height: 114px!important;
+	padding-left:15px!important;
+}
+
+#txt_box_lab {
+    padding-bottom: 8%!important;
+    padding-top: 10%!important;
+}
+
+div.wpb_content_element div h1 {
+    font-size: 2em!important;
+}
+
+
+/****** Correção alinhamento Topo Mobile ********/
+
+
+    div.wpb_content_element div h1{
+       color: #bd9f7c!important;
+    vertical-align: middle!important;
+    display: table-cell!important;
+    width: 768px!important;
+       text-align: right!important;
+}
+
+
+
+#box_cos_alq div.wpb_content_element div h3 {
+       color: #bd9f7c!important;
+    vertical-align: middle!important;
+    display: table-cell!important;
+    width: 768px!important;
+    height: 114px!important;
+    text-align: right!important;
+}
+
+#box_resp_social, #box_resp_social_gr, .vc_custom_1585582417726, #box_alq_floral_gr, #box_alq_floral, #box_cos_alq_gr, #box_cos_alq, #box_aro_alq_gr, #box_aro_alq {
+    min-height: 114px!important;
+    height: 114px!important;
+}
+
+#box_txt_cos_alq_col2 {
+    margin: 10% 0%!important;
+}
+
+#box_txt_florais_sutis h2 {
+    margin: 0px 0px 30px 0px !important;}
+
+
+#box_alq_floral div.wpb_content_element div h1,#box_alq_floral div.wpb_content_element div h3 {
+       color: #bd9f7c!important;
+    vertical-align: middle!important;
+    display: table-cell!important;
+    max-width: 768px!important;
+    height: 114px!important;
+    text-align: right!important;
+}
+
+ #box_aro_alq div.wpb_content_element div h1,#box_aro_alq div.wpb_content_element div h3 {
+       color: #bd9f7c!important;
+    vertical-align: middle!important;
+    display: table-cell!important;
+    max-width: 768px!important;
+    height: 114px!important;
+    text-align: right!important;
+}
+
+
+    body.page-id-38002 #box_oraculo div.wpb_content_element div h1,body.page-id-38002 #box_oraculo div.wpb_content_element div h3 {
+       color: #bd9f7c!important;
+    vertical-align: middle!important;
+    display: table-cell!important;
+    max-width: 768px!important;
+    height: 114px!important;
+    text-align: right!important;
+     }
+
+
+
+    body.page-id-37275 div.wpb_content_element div h1, body.page-id-37275 div.wpb_content_element div h3{
+       color: #bd9f7c!important;
+    vertical-align: middle!important;
+    display: table-cell!important;
+    max-width: 768px!important;
+    height: 114px!important;
+    text-align: right!important;
+
+}
+
+
+
+    #box_resp_social div.wpb_content_element div h1, #box_resp_social div.wpb_content_element div h3 {
+       color: #bd9f7c!important;
+    vertical-align: middle!important;
+    display: table-cell!important;
+    max-width: 768px!important;
+    height: 114px!important;
+    text-align: right!important;
+
+}
+
+ #box_faq div.wpb_content_element div h1, #box_faq div.wpb_content_element div h3 {
+       color: #bd9f7c!important;
+    vertical-align: middle!important;
+    display: table-cell!important;
+    max-width: 768px!important;
+height:114px!important;
+    text-align: right!important;
+
+}
+
+ #box_alq_floral div.wpb_content_element div h1,  #box_alq_floral  div.wpb_content_element div h3 {
+       color: #bd9f7c!important;
+    vertical-align: middle!important;
+    display: table-cell!important;
+    width: 768px!important;
+height:114px!important;
+    text-align: right!important;
+
+}
+
+
+
+
+
+    footer .widget .textwidget {
+    color: #fff;
+    font-size: .834em!important;
+}
+        #box_aro_alq{visibility:visible!important;
+					padding-right:15px!important;
+					display:table!important;
+    background-repeat:no-repeat!important;
+}
+    #box_aro_alq_gr{visibility:hidden!important; display:none!important;
+    background-repeat:no-repeat!important;
+}
+#box_aro_alq_425{visibility:hidden!important; display:none!important;
+    background-repeat:no-repeat!important;
+}
+
+
+    #box_txt_historia {padding-top:60px!important;}
+    body.page-id-35438 .vc_custom_1584373542029 {
+ padding-bottom: 70px !important;
+}
+
+    body.page-id-35438 .mkdf-sidebar-holder{display:none!important;}
+
+body.page-id-35438  .vc_btn3-container {
+    display: block;
+    margin-bottom: 0px!important;
+    max-width: 100%;
+}
+
+body.page-id-35438 .vc_custom_1584372601868 {background-position: top center!important;}
+
+    .vc_custom_1584372126526 {
+    padding-top: 45px !important;
+    padding-bottom: 0px !important;
+}
+
+    .vc_cta3-container {
+    margin-bottom: 0px!important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .vc_custom_1584372126526 {
+
+    padding-bottom: 110px !important;
+}
+
+    .vc_btn3.vc_btn3-color-grey.vc_btn3-style-outline {
+    margin-bottom: 12px!important;
+
+}
+
+    #box_alq_cont.vc_row.vc_row-o-full-height{min-height: 114px!important;}
+
+#box_sist_joel_aleixo.vc_row.vc_row-o-full-height {
+    min-height: 30vh;
+}
+
+.vc_custom_1584417134458 {
+    background-size: cover!important;
+    background-position: top center!important;
+
+    }
+#box_joel_aleixo_gr, #box_joel_aleixo_425{visibility:hidden!important; display:none!important;
+    background-repeat:no-repeat!important;
+}
+
+
+    #box_sist_joel_aleixo_gr{visibility:hidden!important; display:none!important;
+    background-repeat:no-repeat!important;
+}
+#box_sist_joel_aleixo_425{visibility:hidden!important; display:none!important;
+    background-repeat:no-repeat!important;
+}
+
+    #box_alq_cont_gr, #box_alq_cont_425{visibility:hidden!important; display:none!important;
+    background-repeat:no-repeat!important;
+}
+
+#box_cos_alq.vc_custom_1584597470181{
+    min-height: 114px!important;
+}
+
+#box_kit_anonovo, #box_livro, #box_resp_social, #box_resp_social_gr{
+    min-height: 114px!important;
+}
+
+	#box_faq{padding-right:15px!important;}
+    #box_joel_aleixo.vc_row.vc_row-o-full-height {
+    min-height: 70vh!important;
+}
+    #box_lab{visibility:visible!important; display:table!important;
+    background-repeat:no-repeat!important;
+			padding-right:15px!important;
+
+			padding-left:15px!important;
+min-height:114px!important;
+        background-size:cover!important;
+}
+    #box_lab_gr{visibility:hidden!important; display:none!important;
+    background-repeat:no-repeat!important;
+}
+#box_lab_425{visibility:hidden!important; display:none!important;
+    background-repeat:no-repeat!important;
+}
+
+div.wpb_content_element div h3 {
+    font-size: 30px!important;
+    margin: 0px 0px 0px!important;
+}
+
+#box_joel_aleixo .vc_custom_1584387357633 {
+    padding-top: 13% !important;
+    padding-left: 35% !important;
+}
+
+#box_oraculo_gr, #box_oraculo_425{visibility:hidden!important; display:none!important;
+    background-repeat:no-repeat!important;
+}
+
+    #box_oraculo{visibility:visible!important; display:block!important;
+			padding-left:15px!important;
+    background-repeat:no-repeat!important;
+}
+    #box_joel_aleixo{visibility:visible!important; display:block!important;
+    background-repeat:no-repeat!important;
+    vertical-align: middle!important;
+    background-size: cover!important;
+    background-align:center!important
+   }
+
+ #box_joel_aleixo .vc_custom_1585012808581{    visibility: visible!important;
+    display: table-cell;
+    display: table-cel!important;
+    vertical-align: middle!important;
+    text-align: right!important;
+    height: 299px;
+    width: 768px!important;
+    right: 0!important;
+}
+
+
+#box_sist_joel_aleixo{visibility:visible!important; display:block!important;
+    background-repeat:no-repeat!important;
+}
+
+    #box_alq_cont{visibility:visible!important; display:block!important;
+    background-repeat:no-repeat!important;
+}
+    body.page-id-35438 .vc_row.wpb_row.vc_row-fluid.mkdf-content-aligment-center{background-position:top left!important;}
+
+
+body.page-id-34267 #box_sist_joel_aleixo.vc_row.vc_row-o-full-height {height:114px!important;min-height:114px!important; vertical-align:middle!important;}
+
+body.page-id-34267 div.wpb_content_element div h1, body.page-id-34271 div.wpb_content_element div h1{height:114px!important;}
+
+    #box_alq_cont div.wpb_content_element div h1, #box_alq_cont div.wpb_content_element div h3, #box_alq_cont_gr div.wpb_content_element div h1, #box_alq_cont_gr div.wpb_content_element div h3 {
+    color:#bd9f7c!important;
+    vertical-align:middle!important;
+    height:114px!important;
+    text-align: left!important;
+}
+
+    .vc_custom_1584492200717 {
+     min-height:114px!important;
+    background-size: cover;
+    background-position: top right;
+}
+
+
+    #linha_lab_etapas {
+    margin-bottom: 0px!important;
+        padding-bottom:60px!important;
+}
+
+#linha_txt_resultado {
+    margin: 0px 0px!important;
+}
+
+
+
+    #box_livro, #box_kit_anonovo{visibility:visible!important; display:table!important;
+    background-repeat:no-repeat!important;
+}
+
+	#box_livro{padding-right:15px!important;}
+
+    #box_resp_social{visibility:visible!important; display:table!important;
+    background-repeat:no-repeat!important;
+			padding-right:15px!important;
+}
+    #box_resp_social_gr{visibility:hidden!important; display:none!important;
+    background-repeat:no-repeat!important;
+}
+#box_resp_social_425{visibility:hidden!important; display:none!important;
+    background-repeat:no-repeat!important;
+}
+
+    .vc_custom_1584507242942, .vc_custom_1585370371888 {
+    background-position: top center!important;
+    min-height:114px!important;
+    background-size:cover!important;
+}
+
+    #box_txt_amb_col1 .wpb_content_element{padding-top:10%!important; padding-left:0!important; padding-bottom:8%!important;}
+
+#box_txt_amb_col2  div.vc_column-inner{padding-top:0px!important; padding-right:0px!important;}
+
+    #box_faq{visibility:visible!important; display:table!important;
+    background-repeat:no-repeat!important;
+        background-size:cover!important;
+        background-position:top center!important;
+        min-height:114px!important;
+}
+    #box_faq_425{visibility:hidden!important; display:none!important;
+    background-repeat:no-repeat!important;
+}
+
+    #box_faq_gr{visibility:hidden!important; display:none!important;
+    background-repeat:no-repeat!important;
+}
+
+        #box_alq_floral{visibility:visible!important; display:table!important;
+    background-repeat:no-repeat!important;
+padding-left:15px!important;
+}
+
+	footer .mkdf-grid{width:90%!important;}
+
+	body.page-id-37234 #box_txt_amb_col1 .wpb_content_element {
+    padding-left: 0px!important;
+}
+    #box_alq_floral_425{visibility:hidden!important; display:none!important;
+    background-repeat:no-repeat!important;
+}
+
+    #box_alq_floral_gr{visibility:hidden!important; display:none!important;
+    background-repeat:no-repeat!important;
+}
+
+	body.page-id-37353 #box_txt_amb_col1 .wpb_content_element, body.page-id-37338 #box_txt_amb_col1 .wpb_content_element {
+    padding-left: 0px!important;
+}
+	#box_txt_depo figure.vc_figure {
+    padding-top: 295px!important;
+}
+
+	#box_txt_depo .wpb_single_image img {
+    height: auto;
+    max-width: 190px!important;
+    float: right!important;
+    vertical-align: top;
+	}
+
+	body.page-id-37353 #box_txt_livros_col1 {
+    padding-left: 15px!important;
+}
+
+	#box_alq_cont, #box_kit_anonovo{padding-left:15px!important;}
+
+    #box_cos_alq{visibility:visible!important;
+			padding-left:15px!important;
+			display:table!important;
+    background-repeat:no-repeat!important;
+}
+    #box_cos_alq_425{visibility:hidden!important; display:none!important;
+    background-repeat:no-repeat!important;
+}
+
+    #box_cos_alq_gr{visibility:hidden!important; display:none!important;
+    background-repeat:no-repeat!important;
+}
+
+    body.page-id-35438 rs-fullwidth-wrap, body.page-id-35438 rs-slides, body.page-id-35438 rs-slide, body.page-id-35438 rs-slide:before {
+    height: 455px!important;
+}
+
+
+    body.page-id-35438 #rev_slider_1_1_wrapper, body.page-id-35438  #rev_slider_1_1{height:455px!important;}
+
+
+
+    body.page-id-35438  rs-sbg{background-position:center bottom!important;
+    min-height:455px!important;
+    }
+
+
+}
+
+@media only screen and (max-width: 425px){
+
+
+	#box_txt_faq div.vc_column-inner{padding-left:0px!important;}
+	#box_txt_faq div.vc_column-inner, #box_lab_425 div.vc_column-inner, #box_faq_425 div.vc_column-inner	{padding-right:0px!important;}
+
+
+#box_txt_amb_col1 div.vc_column-inner {
+    padding-left: 0px!important;
+ padding-right:0px!important;
+}
+
+	body.page-id-37234 #box_txt_amb_col1 {
+    padding: 0 0px 8% 0px!important;
+}
+
+
+	body.page-id-37338 #box_txt_amb_col1 .wpb_content_element {
+    padding-top: 0px!important;
+}
+
+	body.page-id-35975  #box_txt_amb_col1 div.vc_column-inner {
+    padding-left: 15px!important;
+}
+
+	body.page-id-37338 #box_txt_amb_col1 div.vc_column-inner{padding-left:15px!important;}
+
+	footer .mkdf-grid {
+    width: 300px!important;
+}
+
+#rev_slider_1_1_forcefullwidth, #gal_lab, #gal_lab2{visibility:hidden!important; display:none!important;}
+
+
+
+#banner_home_mob,
+	#gal_lab_mob, #gal_lab2_mobile{visibility:visible!important; display:block!important;}
+
+ #box_txt_higienizacao, #box_txt_capela, #box_txt_etapas_2, #box_txt_etapas_3, #box_txt_etapas_4{margin:35px 0px 0px 0px!important;}
+
+.o-card-table .o-card .cover, .o-card-table .o-card .content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    background: #FFF;
+    border: 2px dotted #bd9f7c!important;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.o-card-table .o-card.flipped .content {
+    border: 2px solid #bd9f7c!important;}
+
+
+#box_txt_cos_alq_col2{margin:0px 0 8% 0%!important;}
+
+body.page-id-34271 #linha_lab_etapas {
+    margin-bottom: 35px!important;
+padding-bottom:35px!important;
+    padding-top: 35px!important;
+    border-bottom: 2px solid #bd9f7c!important;
+     border-top: 2px solid #bd9f7c!important;
+}
+
+
+
+ #box_alq_floral_425 div.wpb_content_element div h1,  #box_alq_floral_425  div.wpb_content_element div h3 {
+       color: #bd9f7c!important;
+    vertical-align: middle!important;
+    display: table-cell!important;
+    width: 425px!important;
+height:199px!important;
+    text-align: right!important;
+
+}
+
+ #box_alq_floral_425 div.wpb_content_element div h1,  #box_alq_floral_425  div.wpb_content_element div h3 {
+       color: #bd9f7c!important;
+    vertical-align: middle!important;
+    display: table-cell!important;
+    width: 425px!important;
+height:199px!important;
+    text-align: right!important;
+
+}
+
+body.page-id-37275 div.wpb_content_element div h1, body.page-id-37275 div.wpb_content_element div h3 {
+    color: #bd9f7c!important;
+    vertical-align: middle!important;
+    display: table-cell!important;
+    max-width: 425px!important;
+    height: 199px!important;
+    text-align: right!important;
+   }
+
+ body.page-id-38002 #box_oraculo_425 div.wpb_content_element div h1, body.page-id-38002 #box_oraculo_425 div.wpb_content_element div h3 {
+       color: #bd9f7c!important;
+    vertical-align: middle!important;
+    display: table-cell!important;
+    width: 425px!important;
+height:199px!important;
+    text-align: right!important;
+
+}
+
+#box_txt_florais_sutis h2 {
+       margin: 0px 0px 30px 0px !important;
+}
+
+.vc_custom_1585593330418 {background-image:none!important;}
+
+#box_txt_florais_sutis.vc_row.wpb_row.vc_row-fluid.vc_custom_1585593330418.vc_row-has-fill{background-image:none!important;}
+
+body.page-id-37353 #box_txt_livros_col1 {
+   padding-left: initial!important;
+}
+
+ #box_faq_425 div.wpb_content_element div h1, #box_faq_425 div.wpb_content_element div h3 {
+       color: #bd9f7c!important;
+    vertical-align: middle!important;
+    display: table-cell!important;
+    width: 425px!important;
+    height: 199px!important;
+    text-align: right!important;
+
+}
+
+    div.vc_column-inner.vc_custom_1585149859360 div div.wpb_text_column.wpb_content_element.vc_custom_1585156479053{padding-top:0px!important;}
+
+    .vc_custom_1585149859360{padding-bottom:35px!important;}
+     div.wpb_content_element div h1{font-size:1.2em!important;}
+    div.wpb_content_element div h3{font-size:.8em!important;}
+
+    div.vc_row.wpb_row.vc_row-fluid.vc_custom_1585008327365.vc_row-has-fill {
+background-image: none!important;}
+
+
+    body.page-id-35438 #rev_slider_1_1_wrapper, body.page-id-35438  #rev_slider_1_1{height:252px!important;}
+
+
+
+  body.page-id-35438 rs-slides,   body.page-id-35438  rs-sbg{background-position:center bottom!important;
+    min-height:282px!important;
+    }
+
+body.page-id-35438   rs-fullwidth-wrap, body.page-id-35438  rs-slides,body.page-id-35438 rs-slide,body.page-id-35438 rs-slide:before {
+
+    height: 282px!important;
+
+}
+
+
+
+    #box_oraculo_425 div.wpb_content_element div h1, #box_oraculo_425 div.wpb_content_element div h3 {text-align:left!important; margin:35px 110px 0px 0px!important;}
+
+    #box_kits_alq_425 div.wpb_content_element div h1, #box_kits_alq_425 div.wpb_content_element div h3 {text-align:left!important;}
+
+
+    #box_sup_alq_425 div.wpb_content_element div h1, #box_sup_alq_425 div.wpb_content_element div h3 {
+    margin: 75px 0px 0px 0px!important;
+}
+    #box_aro_alq_425 div.wpb_content_element div h1, #box_aro_alq_425 div.wpb_content_element div h3 {
+    margin: 35px 0px 0px 110px!important;
+}
+
+#box_aro_alq_425.vc_row.vc_row-o-full-height {
+    min-height: 199px!important;
+}
+    #box_aro_alq_425{visibility: visible!important;
+    display: block!important;
+    background-size: cover!important;
+    background-repeat: no-repeat!important;
+    background-position: top center!important;
+}
+    #box_aro_alq_gr{visibility:hidden!important; display:none!important;
+    background-repeat:no-repeat!important;
+}
+
+    #box_aro_alq{visibility:hidden!important; display:none!important;
+    background-repeat:no-repeat!important;
+}
+
+	.vc_custom_1585930865166 div.wpb_wrapper, .vc_custom_1585664536818 div.wpb_wrapper, .vc_custom_1585930914082 div.wpb_wrapper{margin-left:15px!important;}
+
+
+	.vc_custom_1586184585883 div.wpb_wrapper{margin-left:15px!important;}
+	.vc_custom_1586184585883{margin-left:7%!important;margin-right:7%!important;}
+
+
+	#box_txt_outros{margin-left:15px!important; margin-right:15px!important;}
+
+
+#box_cos_alq_425.vc_row.vc_row-o-full-height {
+    min-height: 199px!important;
+max-width:425px!important;}
+
+ #box_txt_cos_alq figure {
+     display:none!important;
+     visibility:hidden!important;
+    vertical-align: top;
+    margin: 0;
+    max-width: 100%;
+}
+
+
+    body.page-id-37370 #box_txt_cos_alq {
+    display: none!important;
+    max-width: 100%;
+    visibility: hidden!important;
+    }
+
+    body.page-id-37370 .vc_column_container>.vc_column-inner  {padding-left:0px!important; padding-right:0px!important;}
+
+
+
+    #box_txt_banhodeouro .vc_custom_1585664536818 {
+    padding-top: 0% !important;
+    padding-left: 30px !important;
+    padding-right:15px!important;
+}
+
+
+#box_txt_magno{display:none!important;
+     visibility:hidden!important;}
+
+     .vc_custom_1585664536818 h2, .vc_custom_1585875760198 h2, .vc_custom_1585875228977 h2{text-align:center!important;}
+
+#box_txt_magno_mobile{display:table!important;
+     visibility:visible!important;
+    vertical-align: top;
+    margin: 0;
+
+    padding-left:0!important;
+    max-width: 100%;}
+
+
+    #box_txt_kit_mobile{display:table!important;
+     visibility:visible!important;
+    vertical-align: top;
+    margin: 0;
+    padding-left:0!important;
+    max-width: 100%;}
+
+.vc_custom_1585664612244 {
+    padding-right: 0% !important;
+}
+
+
+    #box_txt_sup figure {
+    display: none!important;        visibility:hidden!important;
+    vertical-align: top;
+    margin: 0;
+    max-width: 100%;
+}
+
+    #box_cos_alq_425 div.wpb_content_element div h1, #box_cos_alq_425 div.wpb_content_element div h3 {
+    margin: 35px 110px 0px 0px!important;
+}
+    #box_cos_alq_425{visibility: visible!important;
+    display: block!important;
+    background-size: cover;
+    background-repeat: no-repeat!important;
+    background-position: top center!important;
+}
+    #box_cos_alq_gr{visibility:hidden!important; display:none!important;
+    background-repeat:no-repeat!important;
+}
+
+    #box_cos_alq{visibility:hidden!important; display:none!important;
+    background-repeat:no-repeat!important;
+}
+    #box_alq_floral_425.vc_row.vc_row-o-full-height {
+    min-height: 199px!important;
+}
+
+    #box_alq_floral_425 div.wpb_content_element div h1, #box_alq_floral_425 div.wpb_content_element div h3 {
+    margin: 35px 0px 0px 130px!important;
+}
+    #box_alq_floral_425{visibility: visible!important;
+    display: block!important;
+    background-position: top center!important;
+    background-size: cover!important;
+}
+    #box_alq_floral_gr{visibility:hidden!important; display:none!important;
+    background-repeat:no-repeat!important;
+}
+
+    #box_alq_floral{visibility:hidden!important; display:none!important;
+    background-repeat:no-repeat!important;
+}
+
+
+
+
+    #box_faq_425.vc_row.vc_row-o-full-height {
+    min-height: 199px!important;
+        background-size:cover!important;
+        background-position:top center!important;
+}
+
+#box_txt_manifesto {
+    padding-top: 10%!important;
+}
+
+#box_txt_alq_cont {
+    padding-top: 10%!important;
+}
+
+#box_txt_joel {
+    padding-top: 10%!important;
+}
+
+#box_txt_sist {
+    padding-top: 10%!important;
+}
+
+#txt_box_lab {
+    padding-bottom: 8%!important;
+    padding-top: 10%!important;
+}
+
+
+#box_tit_historia {
+    padding-top: 10%!important;
+    padding-left: 3%!important;
+    padding-right: 0%!important;
+}
+
+
+	.vc_custom_1585114985497 p, #box_txt_sup_col2 div.vc_column-inner p{
+    padding-right: 8%!important;
+}
+
+	#box_txt_sup_col2 div.vc_column-inner, #box_aro_alq_425 div.vc_column-inner, #box_resp_social_425 div.vc_column-inner{padding-right:0px!important;}
+
+body.page-id-34430 #box_txt_amb_col1 .wpb_content_element {
+    padding-top: 10%!important;
+    padding-left: 8%!important;
+	padding-right:8%!important;
+    padding-bottom:8%important;
+}
+
+    div.vc_custom_1585114215683, div.vc_custom_1585116053709 {
+    padding-top: 0% !important;
+    padding-left: 3% !important;
+}
+
+    #box_txt_amb_col2 figure{visibility:hidden!important; display:none!important;}
+
+    body.page-id-37306 #box_txt_amb_col1 .wpb_content_element, body.page-id-37306 #box_txt_amb_col1 .wpb_content_element {
+    padding-top:10%!important;
+    padding-bottom:8%!important;
+    padding-left: 8%!important;
+padding-right:8%!important;
+}
+
+   body.page-id-35975 #box_txt_amb_col1 .wpb_content_element,   body.page-id-35975 #box_txt_amb_col1 .wpb_content_element {
+    padding-top:10%!important;
+    padding-bottom:8%!important;
+    padding-left: 3%!important;
+}
+
+#box_txt_faq {
+    margin: 10% 0px 8%!important;
+}
+
+
+    body.page-id-37353 #box_txt_amb_col1 .wpb_content_element, body.page-id-37338 #box_txt_amb_col1 .wpb_content_element {
+    padding-top: 0%!important;
+    padding-left: 3%!important;
+}
+
+
+
+ body.page-id-37353 #box_txt_livros_col1 .wpb_content_element{
+    padding-top: 0%!important;
+    padding-left: 15px!important;
+}
+
+    #box_txt_amb_col1 .wpb_content_element {
+    padding-top: 0%!important;
+    padding-left: 3%!important;
+}
+    div.wpb_column.vc_column_container.vc_col-sm-6{padding-bottom:35px!important;}
+body.page-id-37234 #box_txt_amb_col1 .wpb_content_element {
+    padding-top: 0%!important;
+    padding-left: 8%!important;
+
+}
+    #box_faq_425{visibility:visible!important; display:block!important;
+    background-repeat:no-repeat!important;
+}
+    #box_faq_gr{visibility:hidden!important; display:none!important;
+    background-repeat:no-repeat!important;
+}
+
+ #box_kit_anonovo, #box_livro{visibility:hidden!important; display:none!important;
+    background-repeat:no-repeat!important;
+}
+
+    #box_faq{visibility:hidden!important; display:none!important;
+    background-repeat:no-repeat!important;
+}
+
+  .vc_custom_1585086471307,  .vc_custom_1584650623946{   background-repeat: no-repeat!important;
+    background-position: top right;
+    background-size: cover;
+    min-height: 199px!important;}
+
+    #box_amb_425{
+    background-repeat: no-repeat!important;
+    background-position: top center;
+    background-size: cover;
+    min-height: 199px!important;}
+
+.vc_custom_1584507289381 {
+
+    background-position: top right!important;
+    min-height:99px!important;
+    background-size:cover!important;
+}
+
+
+
+
+    #box_amb_425 .wpb_content_element div h1,#box_amb_425   div.wpb_content_element div h3
+    {    margin:0px 110px 0px 0px!important; text-align:left!important;}
+        #box_amb_425{visibility:visible!important; display:table!important;
+    background-repeat:no-repeat!important;
+}
+    #box_amb_gr{visibility:hidden!important; display:none!important;
+    background-repeat:no-repeat!important;
+}
+
+    #box_amb{visibility:hidden!important; display:none!important;
+    background-repeat:no-repeat!important;
+}
+
+
+    #box_resp_social_425   {visibility: visible!important;
+    display: table!important;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+
+    min-height: 199px!important;
+        background-position:top center!important;
+}
+    #box_resp_social_gr{visibility:hidden!important; display:none!important;
+    background-repeat:no-repeat!important;
+}
+
+    #box_resp_social{visibility:hidden!important; display:none!important;
+    background-repeat:no-repeat!important;
+}
+
+    #box_txt_historia {padding-top:60px!important;}
+
+
+    #linha_txt_resultado {
+    margin: 0px 0px!important;
+}
+
+
+#linha_lab_etapas {
+    padding-bottom: 60px!important;
+   margin-bottom:0px!important;
+}
+
+
+    #box_lab_425.vc_row.vc_row-o-full-height {
+    min-height: 199px!important;
+}
+
+    #box_lab_425.vc_custom_1584482378514 {
+
+    background-position: top center!important;
+
+}
+
+
+
+    #box_lab_425{visibility:visible!important; display:table!important;
+    background-repeat:no-repeat!important;
+}
+    #box_lab_gr{visibility:hidden!important; display:none!important;
+    background-repeat:no-repeat!important;
+}
+#box_lab{visibility:hidden!important; display:none!important;
+    background-repeat:no-repeat!important;
+}
+
+   #box_amb_425 .wpb_content_element div h1, #box_amb_425 div.wpb_content_element div h3
+    {  color: #bd9f7c!important;
+    vertical-align: middle!important;
+    display: table-cell!important;
+    width: 425px!important;
+    height: 199px!important;
+    text-align: left!important;}
+
+    #box_aro_alq_425 .wpb_content_element div h1, #box_aro_alq_425  div.wpb_content_element div h3
+    {  color: #bd9f7c!important;
+    vertical-align: middle!important;
+    display: table-cell!important;
+    width: 425px!important;
+    height: 199px!important;
+    text-align: right!important;}
+
+    #box_resp_social_425 .wpb_content_element div h1, #box_resp_social_425  div.wpb_content_element div h3
+    {  color: #bd9f7c!important;
+    vertical-align: middle!important;
+    display: table-cell!important;
+    width: 425px!important;
+    height: 199px!important;
+    text-align: right!important;}
+
+    #box_lab_425 div.wpb_content_element div h1, #box_lab_425 div.wpb_content_element div h3
+    {      color: #bd9f7c!important;
+    vertical-align: middle!important;
+    display: table-cell!important;
+    width: 425px!important;
+    height: 199px!important;
+    text-align: right!important;}
+
+    #box_sist_joel_aleixo_425 div.wpb_content_element div h1, #box_sist_joel_aleixo_425 div.wpb_content_element div h3{     color: #bd9f7c!important;
+    vertical-align: middle!important;
+    display: table-cell!important;
+    width: 425px!important;
+    height: 199px!important;
+    text-align: left!important;}
+
+    #box_alq_cont_425 div.wpb_content_element div h1, #box_alq_cont_425 div.wpb_content_element div h3 {
+       color: #bd9f7c!important;
+    vertical-align: middle!important;
+    display: table-cell!important;
+    width: 425px!important;
+    height: 199px!important;
+    text-align: center!important;
+
+}
+
+
+#box_txt_alq_floral div.wpb_column.vc_column_container.vc_col-sm-6{margin-top:10%!important;
+margin-bottom:8%!important;}
+
+    #box_cos_alq_425 div.wpb_content_element div h1, #box_cos_alq_425 div.wpb_content_element div h3 {
+       color: #bd9f7c!important;
+    vertical-align: middle!important;
+    display: table-cell!important;
+    width: 425px!important;
+    height: 199px!important;
+    text-align: center!important;
+}
+
+#box_txt_alq_cont.vc_custom_1585397585459{background-image:none!important; background-color:#fff!important;}
+/****** Correção alinhamento Topo Mobile ********/
+
+
+
+
+	#linha_txt_escola{margin-top:8%!important; margin-bottom:10%!important;}
+
+#box_txt_porque.vc_custom_1585756512157 {
+
+		background-image: none!important;}
+
+ body.page-id-36723 #box_alq_cont_425 div.wpb_content_element div h1,body.page-id-36723 #box_alq_cont_425 div.wpb_content_element div h3 {
+       color: #bd9f7c!important;
+    vertical-align: middle!important;
+    display: table-cell!important;
+    width: 425px!important;
+    height: 199px!important;
+    text-align: left!important;
+
+}
+
+    #box_alq_cont_425 h1 {
+    font-size: 20px!important;
+    line-height: 1.29em!important;
+    letter-spacing: .004em!important;
+        color:#bd9f7c!important;
+}
+
+
+    #box_joel_aleixo_425 .vc_custom_1585402536964 div.wpb_wrapper {
+       color: #bd9f7c!important;
+    vertical-align: middle!important;
+    display: table-cell!important;
+    width: 425px!important;
+    height: 199px!important;
+    text-align: center!important;
+
+}
+
+
+   #box_joel_aleixo_425 h1 {
+    font-size: 20px!important;
+    line-height: 1.29em!important;
+    letter-spacing: .004em!important;
+        color:#bd9f7c!important;
+}
+
+
+ #box_joel_aleixo_425 .vc_custom_1585402292784{    visibility: visible!important;
+    display: table-cell;
+    display: table-cel!important;
+    vertical-align: middle!important;
+    text-align: right!important;
+    height: 199px;
+    width: 768px!important;
+    right: 0!important;
+}
+
+
+    h1 {
+    font-size: 20px!important;
+    line-height: 1.29em!important;
+    letter-spacing: .004em!important;
+}
+    body.page-id-37424 .vc_custom_1584655854989 , #box_alq_cont_425.vc_row.vc_row-o-full-height {
+    min-height: 199px!important;
+}
+
+#box_joel_aleixo_gr{visibility:hidden!important; display:none!important;
+    background-repeat:no-repeat!important;
+}
+#box_joel_aleixo{visibility:hidden!important; display:none!important;
+    background-repeat:no-repeat!important;
+}
+
+#box_sist_joel_aleixo_425{visibility: visible!important;
+    display: table!important;
+    background-repeat: no-repeat!important;
+    background-position: top right!important;
+    min-height:199px!important;
+}
+    #box_sist_joel_aleixo_gr{visibility:hidden!important; display:none!important;
+    background-repeat:no-repeat!important;
+}
+#box_sist_joel_aleixo{visibility:hidden!important; display:none!important;
+    background-repeat:no-repeat!important;
+}
+    #box_alq_cont_gr{visibility:hidden!important; display:none!important;
+    background-repeat:no-repeat!important;
+}
+#box_alq_cont{visibility:hidden!important; display:none!important;
+    background-repeat:no-repeat!important;
+}
+
+#box_oraculo_gr{visibility:hidden!important; display:none!important;
+    background-repeat:no-repeat!important;
+}
+#box_oraculo{visibility:hidden!important; display:none!important;
+    background-repeat:no-repeat!important;
+}
+
+#box_txt_oraculo.vc_custom_1585696448731 {
+    background-image: none!important;
+}
+
+body.page-id-34971 	.vc_custom_1586188089118 {
+
+		background-position: top right !important;}
+
+body.page-id-34971 #box_oraculo_425 div.wpb_content_element div h1, body.page-id-34971 #box_oraculo_425  div.wpb_content_element div h3 {
+    color: #bd9f7c!important;
+    vertical-align: middle!important;
+    display: table-cell!important;
+    width: 425px!important;
+    height: 199px!important;
+    text-align: center!important;
+}
+
+#box_oraculo_425{visibility:visible!important;
+        display:table!important;
+height: 199px!important;
+    }
+    #box_joel_aleixo_425{visibility:visible!important;
+        display:table!important;
+height: 199px!important;
+    }
+
+#box_joel_aleixo_425 .vc_custom_1584387357633 {
+    padding-top: 2%!important;
+    padding-left: 5% !important;
+}
+#box_joel_aleixo_425    h1 {
+    font-size: 20px!important;
+    line-height: 1.29em;
+    letter-spacing: .004em;
+}
+
+#box_joel_aleixo_425    h3 {
+   font-size: 15px!important;
+    line-height: 1.02em;
+    letter-spacing: .004em;
+}
+
+#box_joel_aleixo_425.vc_row.vc_row-o-full-height {
+    min-height: 199px!important;
+}
+
+#box_alq_cont_425{visibility:visible!important; display:block!important;
+    background-repeat:no-repeat!important;
+}
+.um-directory .um-member-directory-header .um-member-directory-header-row .um-search {
+    grid-gap: 15px 20px !important;
+}
+.um-directory.um .um-form input {
+    height: 50px !important;
+    padding: 10px 20px !important;
+    background: #FFF !important;
+    border: 1px solid #002B39 !important;
+    border-color: #002B39 !important;
+    border-radius: 5px !important;
+    color: #002B39 !important;
+}
+.um-directory.um .um-form input:focus {
+    border: 1px solid #333 !important;
+}
+
+.um-directory.um .select2.select2-container .select2-selection {
+        height: 50px !important;
+    padding: 10px 20px !important;
+    background: #FFF !important;
+    border: 1px solid #002B39 !important;
+    border-radius: 5px !important;
+}
+
+.um-directory.um .select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 30px;
+}
+
+.um-directory.um .select2.select2-container .select2-selection .select2-selection__arrow {
+    top: 9px !important;
+    }}
+
+@media only screen and (max-width: 767px){
+
+#box_banho_ouro_mob div.wpb_text_column.wpb_content_element.vc_custom_1587675954375{padding-left:15px!important;}
+
+	#box_banho_ouro_mob{visibility:visible!important; display:block!important;}
+	#box_banho_ouro{visibility:hidden!important; display:none!important;
+	}
+	body.page-id-37370  div.wpb_text_column.wpb_content_element.vc_custom_1586184585883 {
+    margin-left: 3%!important;
+}
+
+	body.page-id-37338 #box_txt_amb_col1 .wpb_content_element {
+		padding-top: 10%!important;}
+
+	body.page-id-37322	#box_txt_sup_col2 {
+    margin: 10% 15px!important;
+}
+
+	body.page-id-37234 #box_txt_amb_col1 .wpb_content_element {
+    padding-top: 0%!important;
+
+}
+
+body.page-id-37370	#box_txt_magno, body.page-id-37370  #box_txt_cos_alq{visibility:hidden!important; display:none!important;}
+
+	#box_txt_magno_mobile, #box_txt_kit_mobile {
+    display: table!important;
+    visibility: visible!important;
+    vertical-align: top;
+    margin: 0;
+    padding-left: 0!important;
+    max-width: 100%;
+}
+
+	#box_txt_cos_alq_col2 div.vc_column-inner{padding:2% 8% 0 8%!important;}
+	#box_txt_cos_alq_col2{margin:10% 8% 10% 0px!important;}
+	#box_txt_cos_alq_col1{visibility:hidden!important; display:none!important;}}
+
+@media (max-width: 1025px) {
+    .mkdf-mobile-header .mkdf-mobile-header-inner {
+        border: none;
+    }
+    .mkdf-mobile-header .mkdf-mobile-header-inner .mkdf-mobile-header-holder {
+        background: #152c3b;
+    }
+    .mkdf-mobile-menu-icon {
+        color: #bd9f7c;
+        font-size: 18px !important;
+    }
+    .mkdf-mobile-logo-wrapper {
+        height: 40px;
+    }
+    .mkdf-mobile-logo-wrapper img {
+       height: 40px !important;
+    }
+    .vc_custom_1584743621331 {
+        background: none !important;
+    }
+#box_produtos div div.vc_column-inner{padding-bottom:35px!important;}
+
+body.page-id-35438 .mkdf-content {
+    margin-top: 0px!important;
+
+}
+
+
+
+body.page-id-35438  rs-module {
+    overflow:   visible!important;
+
+}
+
+}
+
+
+
+@media (max-width: 500px) {
+    .vc_custom_1584743451275 .vc_custom_1584743423782 {
+        padding-left: 10% !important;
+        padding-right: 10% !important;
+    }
+}
+.vc_btn3-container.vc_btn3-left.vc_custom_1584745417580 a {
+    font-family: 'Amiri';
+}		</style>
+		<style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1585345406202{background-image: url(https://alkhemylab.com/wp-content/uploads/2020/03/Banner_horizontal_Oraculo-2-1.jpg?id=38453) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}.vc_custom_1585345418179{background-image: url(https://alkhemylab.com/wp-content/uploads/2020/03/Banner_horizontal_Oraculo-2_768-1.jpg?id=38454) !important;}.vc_custom_1586198121788{background-image: url(https://alkhemylab.com/wp-content/uploads/2020/04/Oraculo_Mobile.jpg?id=39142) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}.vc_custom_1585696448731{background-image: url(https://alkhemylab.com/wp-content/uploads/2020/03/fundo_mandala_oraculo_final_2.png?id=38464) !important;}.vc_custom_1584644578730{padding-top: 0px !important;padding-left: 0px !important;}.vc_custom_1585346379146{padding-top: 0px !important;padding-left: 0px !important;}</style><noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>
+<script type='text/javascript' src='https://alkhemylab.com/wp-content/plugins/wp-spamshield/js/jscripts.php'></script>
+</head>
+<body class="page-template-default page page-id-34971 theme-aviana mkd-core-1.3.1 woocommerce-no-js aviana-ver-1.5.1 mkdf-grid-1300 mkdf-dark-header mkdf-fixed-on-scroll mkdf-dropdown-animate-height mkdf-header-standard mkdf-menu-area-shadow-disable mkdf-menu-area-in-grid-shadow-disable mkdf-menu-area-border-disable mkdf-menu-area-in-grid-border-disable mkdf-logo-area-border-disable mkdf-logo-area-in-grid-border-disable mkdf-header-vertical-shadow-disable mkdf-header-vertical-border-disable mkdf-woocommerce-columns-4 mkdf-woo-normal-space mkdf-woo-pl-info-below-image mkdf-woo-single-thumb-below-image mkdf-woo-single-has-pretty-photo mkdf-default-mobile-header mkdf-sticky-up-mobile-header wpb-js-composer js-comp-ver-6.1 vc_responsive" itemscope itemtype="http://schema.org/WebPage">
+
+    <div class="mkdf-wrapper">
+        <div class="mkdf-wrapper-inner">
+
+<header class="mkdf-page-header">
+
+			<div class="mkdf-fixed-wrapper">
+
+	<div class="mkdf-menu-area mkdf-menu-right">
+
+
+			<div class="mkdf-vertical-align-containers">
+				<div class="mkdf-position-left"><!--
+                 --><div class="mkdf-position-left-inner">
+
+
+<div class="mkdf-logo-wrapper">
+    <a itemprop="url" href="https://alkhemylab.com/" style="height: 49px;">
+        <img itemprop="image" class="mkdf-normal-logo" src="https://alkhemylab.com/wp-content/uploads/2020/03/logo_alkhemylab.png"  alt="logo"/>
+        <img itemprop="image" class="mkdf-dark-logo" src="https://alkhemylab.com/wp-content/uploads/2020/03/logo_alkhemylab.png"  alt="dark logo"/>        <img itemprop="image" class="mkdf-light-logo" src="https://alkhemylab.com/wp-content/uploads/2020/03/logo_alkhemylab.png"  alt="light logo"/>    </a>
+</div>
+
+											</div>
+				</div>
+								<div class="mkdf-position-right"><!--
+                 --><div class="mkdf-position-right-inner">
+
+<nav class="mkdf-main-menu mkdf-drop-down mkdf-default-nav">
+    <ul id="menu-menu-institucional-reformulado" class="clearfix"><li id="nav-menu-item-36753" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children  has_sub narrow"><a href="https://alkhemylab.com/alquimia-contemporanea/" class=" no_link" onclick="JavaScript: return false;"><span class="item_outer"><span class="item_text">AlkhemyLab</span><i class="mkdf-menu-arrow fa fa-angle-down"></i></span></a>
+<div class="second"><div class="inner"><ul>
+	<li id="nav-menu-item-37762" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://alkhemylab.com/manifesto/" class=""><span class="item_outer"><span class="item_text">Manifesto</span></span></a></li>
+	<li id="nav-menu-item-37347" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://alkhemylab.com/alquimia-contemporanea/" class=""><span class="item_outer"><span class="item_text">Alquimia Contemporânea</span></span></a></li>
+	<li id="nav-menu-item-36754" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://alkhemylab.com/joel-aleixo/" class=""><span class="item_outer"><span class="item_text">Joel Aleixo</span></span></a></li>
+	<li id="nav-menu-item-35995" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://alkhemylab.com/sistema-de-alquimia-joel-aleixo/" class=""><span class="item_outer"><span class="item_text">Sistema de Alquimia Joel Aleixo</span></span></a></li>
+	<li id="nav-menu-item-35996" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://alkhemylab.com/laboratorio-e-sitio/" class=""><span class="item_outer"><span class="item_text">Laboratório e Sítio</span></span></a></li>
+	<li id="nav-menu-item-36000" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://alkhemylab.com/historia/" class=""><span class="item_outer"><span class="item_text">História</span></span></a></li>
+	<li id="nav-menu-item-37110" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children sub"><a href="https://alkhemylab.com/responsabilidade-social/" class=" no_link" onclick="JavaScript: return false;"><span class="item_outer"><span class="item_text">Responsabilidade Social</span></span></a>
+	<ul>
+		<li id="nav-menu-item-35998" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://alkhemylab.com/responsabilidade-social/projetos-sociais/" class=""><span class="item_outer"><span class="item_text">Projetos Sociais</span></span></a></li>
+		<li id="nav-menu-item-37124" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://alkhemylab.com/responsabilidade-social/projeto-ambulatorio/" class=""><span class="item_outer"><span class="item_text">Projeto Ambulatório</span></span></a></li>
+	</ul>
+</li>
+	<li id="nav-menu-item-36185" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://alkhemylab.com/perguntas-frequentes/" class=""><span class="item_outer"><span class="item_text">Perguntas Frequentes</span></span></a></li>
+</ul></div></div>
+</li>
+<li id="nav-menu-item-36005" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children  has_sub narrow"><a href="https://alkhemylab.com/produtos/" class=" no_link" onclick="JavaScript: return false;"><span class="item_outer"><span class="item_text">Produtos</span><i class="mkdf-menu-arrow fa fa-angle-down"></i></span></a>
+<div class="second"><div class="inner"><ul>
+	<li id="nav-menu-item-37352" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://alkhemylab.com/produtos/compostos-alquimicos/" class=""><span class="item_outer"><span class="item_text">Compostos Alquímicos</span></span></a></li>
+	<li id="nav-menu-item-38009" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://alkhemylab.com/produtos/florais-sutis/" class=""><span class="item_outer"><span class="item_text">Florais Sutis</span></span></a></li>
+	<li id="nav-menu-item-37351" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://alkhemylab.com/produtos/cosmeticos-alquimicos/" class=""><span class="item_outer"><span class="item_text">Cosméticos Alquímicos</span></span></a></li>
+	<li id="nav-menu-item-37350" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://alkhemylab.com/produtos/aromaterapia-alquimica/" class=""><span class="item_outer"><span class="item_text">Aromaterapia Alquímica</span></span></a></li>
+	<li id="nav-menu-item-37349" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://alkhemylab.com/produtos/suplementos-alquimicos/" class=""><span class="item_outer"><span class="item_text">Suplementos Alquímicos</span></span></a></li>
+	<li id="nav-menu-item-37348" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://alkhemylab.com/produtos/kits-alquimicos/" class=""><span class="item_outer"><span class="item_text">Kits Alquímicos</span></span></a></li>
+	<li id="nav-menu-item-37376" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://alkhemylab.com/produtos/livros-e-acessorios/" class=""><span class="item_outer"><span class="item_text">Livros e Acessórios</span></span></a></li>
+	<li id="nav-menu-item-37377" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://alkhemylab.com/produtos/kit-ano-novo-astrologico/" class=""><span class="item_outer"><span class="item_text">Kit Ano Novo Astrológico</span></span></a></li>
+</ul></div></div>
+</li>
+<li id="nav-menu-item-36036" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children mkdf-active-item has_sub narrow"><a href="https://alkhemylab.com/terapeutica-alquimica/" class=" current  no_link" onclick="JavaScript: return false;"><span class="item_outer"><span class="item_text">Alquimistas Terapeutas</span><i class="mkdf-menu-arrow fa fa-angle-down"></i></span></a>
+<div class="second"><div class="inner"><ul>
+	<li id="nav-menu-item-37392" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://alkhemylab.com/porque-consultar-um-alquimista-terapeuta/" class=""><span class="item_outer"><span class="item_text">Por que consultar um Alquimista Terapeuta?</span></span></a></li>
+	<li id="nav-menu-item-35994" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://alkhemylab.com/busca-alquimista-terapeuta/" class=""><span class="item_outer"><span class="item_text">Busca Alquimista Terapeuta</span></span></a></li>
+	<li id="nav-menu-item-35992" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-34971 current_page_item "><a href="https://alkhemylab.com/oraculo-das-flores/" class=""><span class="item_outer"><span class="item_text">Oráculo das Flores</span></span></a></li>
+	<li id="nav-menu-item-36113" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://alkhemylab.com/cadastro-alquimistas-terapeutas/" class=""><span class="item_outer"><span class="item_text">Cadastro Alquimistas</span></span></a></li>
+</ul></div></div>
+</li>
+<li id="nav-menu-item-36004" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow"><a href="/loja/" class=""><span class="item_outer"><span class="item_text">Loja</span><i class="mkdf-menu-arrow fa fa-angle-down"></i></span></a>
+<div class="second"><div class="inner"><ul>
+	<li id="nav-menu-item-40156" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://alkhemylab.com/onde-encontrar/" class=""><span class="item_outer"><span class="item_text">Onde Encontrar</span></span></a></li>
+</ul></div></div>
+</li>
+<li id="nav-menu-item-35454" class="menu-item menu-item-type-custom menu-item-object-custom  narrow"><a href="http://floraisjoelaleixo.com/blog/" class=""><span class="item_outer"><span class="item_text">Blog</span></span></a></li>
+<li id="nav-menu-item-38994" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children  has_sub narrow"><a href="https://alkhemylab.com/escola-de-alquimia-contemporanea/" class=""><span class="item_outer"><span class="item_text">Escola de Alquimia</span><i class="mkdf-menu-arrow fa fa-angle-down"></i></span></a>
+<div class="second"><div class="inner"><ul>
+	<li id="nav-menu-item-36003" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="https://escola.joelaleixo.com/moodle/login/index.php" class=""><span class="item_outer"><span class="item_text">Área do Aluno</span></span></a></li>
+</ul></div></div>
+</li>
+<li id="nav-menu-item-36609" class="menu-item menu-item-type-custom menu-item-object-custom  narrow"><a href="https://www.facebook.com/alkhemylaboficial/" class=""><span class="item_outer"><span class="menu_icon_wrapper"><i class="menu_icon fa-facebook fa"></i></span><span class="item_text">Facebook</span></span></a></li>
+<li id="nav-menu-item-36610" class="menu-item menu-item-type-custom menu-item-object-custom  narrow"><a href="https://www.youtube.com/c/AlkhemyLab" class=""><span class="item_outer"><span class="menu_icon_wrapper"><i class="menu_icon fa-youtube-play fa"></i></span><span class="item_text">Youtube</span></span></a></li>
+<li id="nav-menu-item-36611" class="menu-item menu-item-type-custom menu-item-object-custom  narrow"><a href="https://www.instagram.com/alkhemylaboficial/" class=""><span class="item_outer"><span class="menu_icon_wrapper"><i class="menu_icon fa-instagram fa"></i></span><span class="item_text">Instagram</span></span></a></li>
+</ul></nav>
+
+																	</div>
+				</div>
+			</div>
+
+			</div>
+
+			</div>
+
+
+	</header>
+
+
+<header class="mkdf-mobile-header">
+
+	<div class="mkdf-mobile-header-inner">
+		<div class="mkdf-mobile-header-holder">
+			<div class="mkdf-grid">
+				<div class="mkdf-vertical-align-containers">
+					<div class="mkdf-vertical-align-containers">
+													<div class="mkdf-mobile-menu-opener">
+								<a href="javascript:void(0)">
+									<span class="mkdf-mobile-menu-icon">
+										<span aria-hidden="true" class="mkdf-icon-font-elegant icon_menu " ></span>									</span>
+																	</a>
+							</div>
+												<div class="mkdf-position-center"><!--
+                    	 --><div class="mkdf-position-center-inner">
+
+
+<div class="mkdf-mobile-logo-wrapper">
+    <a itemprop="url" href="https://alkhemylab.com/" style="height: 49px">
+        <img itemprop="image" src="https://alkhemylab.com/wp-content/uploads/2020/03/logo_alkhemylab.png"  alt="Mobile Logo"/>
+    </a>
+</div>
+
+							</div>
+						</div>
+						<div class="mkdf-position-right"><!--
+                		 --><div class="mkdf-position-right-inner">
+															</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+    <nav class="mkdf-mobile-nav">
+        <div class="mkdf-grid">
+            <ul id="menu-menu-institucional-reformulado-1" class=""><li id="mobile-menu-item-36753" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children  has_sub"><h6><span>AlkhemyLab</span></h6><span class="mobile_arrow"><i class="mkdf-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+<ul class="sub_menu">
+	<li id="mobile-menu-item-37762" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://alkhemylab.com/manifesto/" class=""><span>Manifesto</span></a></li>
+	<li id="mobile-menu-item-37347" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://alkhemylab.com/alquimia-contemporanea/" class=""><span>Alquimia Contemporânea</span></a></li>
+	<li id="mobile-menu-item-36754" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://alkhemylab.com/joel-aleixo/" class=""><span>Joel Aleixo</span></a></li>
+	<li id="mobile-menu-item-35995" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://alkhemylab.com/sistema-de-alquimia-joel-aleixo/" class=""><span>Sistema de Alquimia Joel Aleixo</span></a></li>
+	<li id="mobile-menu-item-35996" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://alkhemylab.com/laboratorio-e-sitio/" class=""><span>Laboratório e Sítio</span></a></li>
+	<li id="mobile-menu-item-36000" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://alkhemylab.com/historia/" class=""><span>História</span></a></li>
+	<li id="mobile-menu-item-37110" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children  has_sub"><h6><span>Responsabilidade Social</span></h6><span class="mobile_arrow"><i class="mkdf-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+	<ul class="sub_menu">
+		<li id="mobile-menu-item-35998" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://alkhemylab.com/responsabilidade-social/projetos-sociais/" class=""><span>Projetos Sociais</span></a></li>
+		<li id="mobile-menu-item-37124" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://alkhemylab.com/responsabilidade-social/projeto-ambulatorio/" class=""><span>Projeto Ambulatório</span></a></li>
+	</ul>
+</li>
+	<li id="mobile-menu-item-36185" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://alkhemylab.com/perguntas-frequentes/" class=""><span>Perguntas Frequentes</span></a></li>
+</ul>
+</li>
+<li id="mobile-menu-item-36005" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children  has_sub"><h6><span>Produtos</span></h6><span class="mobile_arrow"><i class="mkdf-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+<ul class="sub_menu">
+	<li id="mobile-menu-item-37352" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://alkhemylab.com/produtos/compostos-alquimicos/" class=""><span>Compostos Alquímicos</span></a></li>
+	<li id="mobile-menu-item-38009" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://alkhemylab.com/produtos/florais-sutis/" class=""><span>Florais Sutis</span></a></li>
+	<li id="mobile-menu-item-37351" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://alkhemylab.com/produtos/cosmeticos-alquimicos/" class=""><span>Cosméticos Alquímicos</span></a></li>
+	<li id="mobile-menu-item-37350" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://alkhemylab.com/produtos/aromaterapia-alquimica/" class=""><span>Aromaterapia Alquímica</span></a></li>
+	<li id="mobile-menu-item-37349" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://alkhemylab.com/produtos/suplementos-alquimicos/" class=""><span>Suplementos Alquímicos</span></a></li>
+	<li id="mobile-menu-item-37348" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://alkhemylab.com/produtos/kits-alquimicos/" class=""><span>Kits Alquímicos</span></a></li>
+	<li id="mobile-menu-item-37376" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://alkhemylab.com/produtos/livros-e-acessorios/" class=""><span>Livros e Acessórios</span></a></li>
+	<li id="mobile-menu-item-37377" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://alkhemylab.com/produtos/kit-ano-novo-astrologico/" class=""><span>Kit Ano Novo Astrológico</span></a></li>
+</ul>
+</li>
+<li id="mobile-menu-item-36036" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children mkdf-active-item has_sub"><h6><span>Alquimistas Terapeutas</span></h6><span class="mobile_arrow"><i class="mkdf-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+<ul class="sub_menu">
+	<li id="mobile-menu-item-37392" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://alkhemylab.com/porque-consultar-um-alquimista-terapeuta/" class=""><span>Por que consultar um Alquimista Terapeuta?</span></a></li>
+	<li id="mobile-menu-item-35994" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://alkhemylab.com/busca-alquimista-terapeuta/" class=""><span>Busca Alquimista Terapeuta</span></a></li>
+	<li id="mobile-menu-item-35992" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-34971 current_page_item "><a href="https://alkhemylab.com/oraculo-das-flores/" class=""><span>Oráculo das Flores</span></a></li>
+	<li id="mobile-menu-item-36113" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://alkhemylab.com/cadastro-alquimistas-terapeutas/" class=""><span>Cadastro Alquimistas</span></a></li>
+</ul>
+</li>
+<li id="mobile-menu-item-36004" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><a href="/loja/" class=""><span>Loja</span></a><span class="mobile_arrow"><i class="mkdf-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+<ul class="sub_menu">
+	<li id="mobile-menu-item-40156" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://alkhemylab.com/onde-encontrar/" class=""><span>Onde Encontrar</span></a></li>
+</ul>
+</li>
+<li id="mobile-menu-item-35454" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="http://floraisjoelaleixo.com/blog/" class=""><span>Blog</span></a></li>
+<li id="mobile-menu-item-38994" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children  has_sub"><a href="https://alkhemylab.com/escola-de-alquimia-contemporanea/" class=""><span>Escola de Alquimia</span></a><span class="mobile_arrow"><i class="mkdf-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+<ul class="sub_menu">
+	<li id="mobile-menu-item-36003" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="https://escola.joelaleixo.com/moodle/login/index.php" class=""><span>Área do Aluno</span></a></li>
+</ul>
+</li>
+<li id="mobile-menu-item-36609" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="https://www.facebook.com/alkhemylaboficial/" class=""><span>Facebook</span></a></li>
+<li id="mobile-menu-item-36610" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="https://www.youtube.com/c/AlkhemyLab" class=""><span>Youtube</span></a></li>
+<li id="mobile-menu-item-36611" class="menu-item menu-item-type-custom menu-item-object-custom "><a href="https://www.instagram.com/alkhemylaboficial/" class=""><span>Instagram</span></a></li>
+</ul>        </div>
+    </nav>
+
+	</div>
+
+	</header>
+
+			<a id='mkdf-back-to-top' href='#'>
+                <span class="mkdf-icon-stack">
+                    <span class="mkdf-back-to-top-inner">
+                        <span aria-hidden="true" class="mkdf-icon-linear-icons lnr lnr lnr-chevron-up "></span>                    </span>
+                </span>
+			</a>
+
+            <div class="mkdf-content" style="margin-top: -262px">
+                <div class="mkdf-content-inner">
+<div class="mkdf-container mkdf-default-page-template">
+
+	<div class="mkdf-container-inner clearfix">
+					<div class="mkdf-grid-row">
+				<div class="mkdf-page-content-holder mkdf-grid-col-12">
+					<div id="box_oraculo_gr" data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1585345406202 vc_row-has-fill vc_row-o-full-height vc_row-o-columns-middle vc_row-flex" ><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element  vc_custom_1584644578730" >
+		<div class="wpb_wrapper">
+			<h1 style="text-align: left!important;">ORÁCULO DAS FLORES</h1>
+
+		</div>
+	</div>
+</div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div id="box_oraculo" data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1585345418179 vc_row-has-fill vc_row-o-full-height vc_row-o-columns-middle vc_row-flex" ><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element  vc_custom_1585346379146" >
+		<div class="wpb_wrapper">
+			<h1 style="text-align: left!important;">ORÁCULO DAS FLORES</h1>
+
+		</div>
+	</div>
+</div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div id="box_oraculo_425" data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_custom_1586198121788 vc_row-has-fill" ><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			<h1 style="text-align: left!important;">ORÁCULO<br />
+DAS FLORES</h1>
+
+		</div>
+	</div>
+</div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div id="box_txt_oraculo" data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1585696448731 vc_row-has-fill" ><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			<p><center><img class="size-full wp-image-37388 aligncenter" style="border-bottom: 2px solid #c3996c!important; margin-bottom: 10%!important;" src="https://alkhemylab.com/wp-content/uploads/2020/03/img_aspas_transparente.png" alt="" width="134" height="95" /></center></p>
+<p style="text-align: center;"><b>A energia das flores para refletir o seu jardim interno.</b></p>
+<p style="text-align: center;"><b>Cada uma das 99 cartas do baralho representa uma das flores do Sistema de Alquimia Joel Aleixo. O Alquimista Terapeuta analisa as cartas e prepara um tratamento floral sutil personalizado.</b></p>
+<p style="text-align: center;"><span class="TextRun Highlight SCXW250165110 BCX0" lang="PT-BR" xml:lang="PT-BR" data-contrast="auto"><span class="NormalTextRun SCXW250165110 BCX0">Durante a consulta, o paciente nem sempre consegue expressar suas emoções e sentimentos em palavras. Dessa forma, foi criado o “Oráculo das Flores”, uma ferramenta que permite entender o momentum do indivíduo através das 3 cartas que ele escolhe aleatoriamente.</span></span></p>
+<p style="text-align: center;"><span style="font-weight: 400;">Nas consultas presenciais, o alquimista terapeuta dispõe de um baralho físico.</span></p>
+<div style="width: 100%; text-align: center!important;">
+<h1 style="border-bottom: 2px solid #c3996c !important; width: 60% !important; text-align: center!important; display: inline-block!important; margin-bottom: 10%!important; margin-top: 10%!important; padding-bottom: 30px!important;">ESCOLHA SUAS CARTAS</h1>
+</div>
+<p style="text-align: center;"><div id="oraculo-das-flores">
+  <div class="o-card-deck" data-base-url="https://alkhemylab.com/wp-content/plugins/oraculo-flores/">
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+          <div class="o-card"></div>
+      </div>
+  <div class="o-card-table">
+        <div class="o-card">
+      <div class="inner">
+        <div class="cover"></div>
+        <div class="content"></div>
+      </div>
+    </div>
+        <div class="o-card">
+      <div class="inner">
+        <div class="cover"></div>
+        <div class="content"></div>
+      </div>
+    </div>
+        <div class="o-card">
+      <div class="inner">
+        <div class="cover"></div>
+        <div class="content"></div>
+      </div>
+    </div>
+      </div>
+  <div class="o-card-description"></div>
+  <div class="text-center">
+    <a href="#" class="o-play-again">
+      Jogar novamente
+    </a>
+  </div>
+</div>
+
+		</div>
+	</div>
+</div></div></div></div><div class="vc_row-full-width vc_clearfix"></div>
+					</div>
+									<div class="mkdf-sidebar-holder">
+						<aside class="mkdf-sidebar">
+	</aside>					</div>
+							</div>
+			</div>
+
+	</div>
+
+
+</div> <!-- close div.content_inner -->
+	</div> <!-- close div.content -->
+					<footer class="mkdf-page-footer" >
+				<div class="mkdf-footer-top-holder">
+	<div class="mkdf-footer-top-inner mkdf-grid">
+		<div class="mkdf-grid-row mkdf-footer-top-alignment-left">
+							<div class="mkdf-column-content mkdf-grid-col-4">
+					<div id="custom_html-2" class="widget_text widget mkdf-footer-column-1 widget_custom_html"><div class="textwidget custom-html-widget">Tenha acesso aos nossos canais de<br/>
+relacionamento com o cliente e fique<br/>
+por dentro das novidades e promoções<br/>
+para despertar uma nova consciência. <br/><br/>
+<a href="m&#x61;&#x69;l&#116;&#x6f;&#x3a;i&#110;&#x66;o&#64;&#x61;&#x6c;k&#104;&#x65;my&#x6c;&#x61;b&#46;&#x63;&#x6f;m" class="mkdf-social-icon-widget-holder" style=" color: #bd9f7c!important;margin: 0px 10px 0px 0px!important;"><span class="mkdf-icon-border-inner"></span>
+			<span class="mkdf-social-icon-widget fa fa-envelope"></span></a>i&#x6e;f&#111;&#x40;a&#x6c;&#x6b;h&#x65;m&#121;&#x6c;a&#98;&#x2e;c&#x6f;m <br/><br/>
+<a href="#" class="mkdf-social-icon-widget-holder" style="color:#d6b981!important;margin: 0px 10px 0px 0px!important;float:left!important;"><span class="mkdf-icon-border-inner"></span>
+	<span class="mkdf-social-icon-widget fa fa-phone"></span></a><div style="display:block!important; line-height:18px!important; color: #ffffff!important;margin:7px 0px 0px 0px!important;">SAC<a href="tel:+551150846408" style="color:#ffffff!important;"> (11) 5084-6408</a><br/> <a href="tel:+5511971813752" style="color:#ffffff!important;">(11) 971813752</a></div> <br/><br/>
+<a href="#" class="mkdf-social-icon-widget-holder" style="color: #d6b981!important; margin:0px 10px 0px 0px!important; float:left!important;">
+<span class="mkdf-icon-border-inner"></span>
+	<span class="mkdf-social-icon-widget fa fa-map-marker"></span></a>	<div style="display:block!important; line-height:18px!important; color: #ffffff!important;margin:7px 0px 0px 0px!important;">
+Rua Áurea, 198 - Vila Mariana<br/> São Paulo - SP|04015-070</div></div></div>				</div>
+							<div class="mkdf-column-content mkdf-grid-col-4">
+							<div class="widget mkdf-contact-form-7-widget ">
+			<div class="mkdf-widget-title-holder"><h4 class="mkdf-widget-title">CONTATO</h4></div>			<div role="form" class="wpcf7" id="wpcf7-f36471-o1" lang="pt-BR" dir="ltr">
+<div class="screen-reader-response"></div>
+<form action="/oraculo-das-flores/#wpcf7-f36471-o1" method="post" class="wpcf7-form" novalidate="novalidate">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="36471" />
+<input type="hidden" name="_wpcf7_version" value="5.1.6" />
+<input type="hidden" name="_wpcf7_locale" value="pt_BR" />
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f36471-o1" />
+<input type="hidden" name="_wpcf7_container_post" value="0" />
+</div>
+<p><span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="Nome*" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" /></span> </p>
+<p><span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="Email*" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" /></span></p>
+<p><span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false">Mensagem</textarea></span></p>
+<p><input type="submit" value="Enviar" class="wpcf7-form-control wpcf7-submit" /></p>
+<div class="wpcf7-response-output wpcf7-display-none"></div></form></div>		</div>
+						</div>
+							<div class="mkdf-column-content mkdf-grid-col-4">
+					<div id="mkdf_instagram_widget-2" class="widget mkdf-footer-column-3 widget_mkdf_instagram_widget"><div class="mkdf-widget-title-holder"><h4 class="mkdf-widget-title">SIGA @ALKHEMYLABOFICIAL</h4></div>			<ul class="mkdf-instagram-feed clearfix mkdf-col-3 mkdf-instagram-gallery mkdf-small-space" >
+									<li>
+						<a href="https://www.instagram.com/p/B_XHV-zHvtw/" target="_blank">
+							<img class="thumbnail" src="https://scontent.cdninstagram.com/v/t51.2885-15/e35/s150x150/94566896_2983807651699889_7317266187100252399_n.jpg?_nc_ht=scontent.cdninstagram.com&amp;_nc_ohc=XTCA4mXClugAX_EQmZQ&amp;oh=3daec2e50810bb8272e14e7c3a7429a7&amp;oe=5ECB9D98" alt="Inspirado numa ideia do cientista Nikola Tesla, o alquimista Joel Aleixo desenvolveu  a tecnologia Magno Tesla. Um bastão com ímãs e minerais que, em contato com a água, magnetiza as moléculas de H2O transformando água parada e engarrafada em água viva, rica em minerais e antioxidantes. Para você tomar água como se estivesse bebendo direto da fonte, super saudável!
+Acesse www.alkhemylab.com/loja e adquira o seu Magno Tesla agora mesmo.
+⠀
+#sistemadealquimiajoelaleixo #magnotesla
+#alkhemylab  #hidratacao
+#floral  #florais  #joelaleixo
+#alquimistasterapeutas #terapiasintegrativas #terapiascomplementares  #curaintegral" width="150" height="150" />						</a>
+					</li>
+									<li>
+						<a href="https://www.instagram.com/p/B_VZoNyHijl/" target="_blank">
+							<img class="thumbnail" src="https://scontent.cdninstagram.com/v/t51.2885-15/e35/s150x150/94567870_313846616271591_3190622850516989879_n.jpg?_nc_ht=scontent.cdninstagram.com&amp;_nc_ohc=KKpB6l1eiKwAX8UFQum&amp;oh=66ebb40f5b6e14e925518826362cbbfe&amp;oe=5ECCC971" alt="Difícil resistir às tentações da geladeira quando estamos dentro de casa. Mas é possível substituir as guloseimas por opções saudáveis e nutritivas, principalmente nos intervalos entre as refeições. Selecionamos algumas dicas que podem te ajudar a saciar a vontade de comer toda hora e ainda alimentar a alma e o espírito. Arraste na imagem e confira.
+⠀
+A alquimia floral trata as compulsões alimentares de maneira natural e olhando para o todo do indivíduo. Acesse alkhemylab.com e saiba mais.
+⠀
+#sistemadealquimiajoelaleixo #alkhemylab #compulsaoaliementar #alquimiacontemporanea #ansiedade
+#floral  #florais  #joelaleixo #equilibriocorpomenteeespirito" width="150" height="150" />						</a>
+					</li>
+									<li>
+						<a href="https://www.instagram.com/p/B_Sm6fZHULW/" target="_blank">
+							<img class="thumbnail" src="https://scontent.cdninstagram.com/v/t51.2885-15/e35/s150x150/94365296_224375548820865_8761291179334017895_n.jpg?_nc_ht=scontent.cdninstagram.com&amp;_nc_ohc=uvvU6-rdzVMAX_Wc99h&amp;oh=08fb16d0d453cfba783887c66d5619d0&amp;oe=5ECD6D19" alt="Em situações de estresse, as crianças são
+as mais vulneráveis. O composto alquímico Calma ajuda a relaxar e tranquilizar os pequeninos,  além de proporcionar um soninho gostoso.
+⠀
+Saiba mais sobre o Composto Alquímico Calma em nosso site www.alkhemylab.com/loja ⠀
+Para um tratamento mais aprofundado e individualizado, procure um dos nossos alquimistas terapeutas.
+⠀
+#sistemadealquimiajoelaleixo #alkhemylab #linhakids #alquimiacontemporanea #compostoalquimiconcentracao  #floral  #florais  #joelaleixo #equilibriocorpomenteeespirito
+#paciencia  #globulos  #estresse #tensao #serenidade #irritacao  #nervosismo #insonia" width="150" height="150" />						</a>
+					</li>
+									<li>
+						<a href="https://www.instagram.com/p/B_P1EjoHGkc/" target="_blank">
+							<img class="thumbnail" src="https://scontent.cdninstagram.com/v/t51.2885-15/e35/s150x150/93843029_1802572096549404_222507324340233797_n.jpg?_nc_ht=scontent.cdninstagram.com&amp;_nc_ohc=Um8bxIOraB4AX8Ufm5Z&amp;oh=28f92113c8141283ee458acc88b47ad0&amp;oe=5ECB0F37" alt="Crianças são esponjas emocionais, elas absorvem todo o clima da casa. Para que elas fiquem mais calmas, em primeiro lugar, os pais devem ficar calmos. Selecionamos algumas dicas que podem ajudar seus  filhos a se divertirem enquanto estão longe da escola e dos amiguinhos. Arraste na imagem e confira.
+⠀
+A linha Kids da Alkhemylab é composta de produtos que ajudam os pequeninos em situações de estresse. Acesse nosso site www.alkhemylab.com e saiba mais.
+⠀
+⠀
+#sistemadealquimiajoelaleixo #alkhemylab #linhakids #alquimiacontemporanea #compostoalquimiconcentracao  #calma
+#floral  #florais  #joelaleixo #equilibriocorpomenteeespirito
+#paciencia  #globulos  #agitacao  #estresse #tensao #serenidade #irritacao  #nervosismo #insonia" width="150" height="150" />						</a>
+					</li>
+									<li>
+						<a href="https://www.instagram.com/p/B_NB8OmHYT8/" target="_blank">
+							<img class="thumbnail" src="https://scontent.cdninstagram.com/v/t51.2885-15/e35/s150x150/93817816_238381404033164_6440030253430257108_n.jpg?_nc_ht=scontent.cdninstagram.com&amp;_nc_ohc=UwCuvFqi0ewAX-pyR2R&amp;oh=8a3d3af99bc5266500b4e56e50865cf5&amp;oe=5ECE87B7" alt="O composto alquímico Adaptação é um ótimo aliado nos processos de ajuste a uma nova situação de vida. Um tratamento complementar à medicina convencional que ajuda a aliviar os distúrbios digestivos decorrentes do estresse e ansiedade. Reduz a necessidade constante de comer.
+⠀
+Para um tratamento mais aprofundado e individualizado, procure um dos nossos alquimistas terapeutas: www.alkhemylab.com
+⠀
+#sistemadealquimiajoelaleixo #alkhemylab #adaptação  #alquimiacontemporanea #apego  #rigidez #floral  #florais  #joelaleixo #equilibriocorpomenteeespirito #paciencia #elementoagua" width="150" height="150" />						</a>
+					</li>
+									<li>
+						<a href="https://www.instagram.com/p/B_KPY79Haxu/" target="_blank">
+							<img class="thumbnail" src="https://scontent.cdninstagram.com/v/t51.2885-15/e35/s150x150/93452839_689231105164296_7937039159023032232_n.jpg?_nc_ht=scontent.cdninstagram.com&amp;_nc_ohc=4Dmr-iVKLl0AX_u2li4&amp;oh=a542917d45a049ecd464213c6c5f7960&amp;oe=5ECD5C23" alt="Cultivar a paciência e manter a flexibilidade são atitudes que ajudam a aliviar o estresse, pensamentos negativos e os temores que podem surgir durante a adaptação à essa nova rotina. Estamos juntos com você neste momento, firmes e fortes, e com muita esperança de que logo, logo tudo passará.
+⠀
+Para saber mais sobre os benefícios que a alquimia floral  traz para o seu dia a dia, acesse nosso site: www.alkhemylab.com
+⠀
+⠀
+#sistemadealquimiajoelaleixo #alkhemylab #adaptação  #alquimiacontemporanea #apego  #rigidez
+#floral  #florais  #joelaleixo #equilibriocorpomenteeespirito #insonia  #dormirbem
+m" width="150" height="150" />						</a>
+					</li>
+							</ul>
+		</div>				</div>
+					</div>
+	</div>
+</div><div class="mkdf-footer-bottom-holder">
+	<div class="mkdf-footer-bottom-inner mkdf-grid">
+		<div class="mkdf-grid-row ">
+							<div class="mkdf-grid-col-6">
+					<div id="custom_html-3" class="widget_text widget mkdf-footer-bottom-column-1 widget_custom_html"><div class="textwidget custom-html-widget"><br/>
+
+Copyright 2020@Calia</div></div>				</div>
+							<div class="mkdf-grid-col-6">
+
+		<a class="mkdf-social-icon-widget-holder mkdf-icon-has-hover" data-hover-color="#ffffff" style="color: #c3996c;;font-size: 36px;margin: 25px;" href="https://www.facebook.com/alkhemylaboficial/" target="_blank">
+                <span class="mkdf-icon-border-inner" ></span>
+			<span class="mkdf-social-icon-widget fa fa-facebook     "></span>		</a>
+
+		<a class="mkdf-social-icon-widget-holder mkdf-icon-has-hover" data-hover-color="#ffffff" style="color: #c3996c;;font-size: 36px;margin: 25px 0px 25px 0;" href="https://www.youtube.com/c/AlkhemyLab" target="_blank">
+                <span class="mkdf-icon-border-inner" ></span>
+			<span class="mkdf-social-icon-widget fa fa-youtube-play     "></span>		</a>
+
+		<a class="mkdf-social-icon-widget-holder mkdf-icon-has-hover" data-hover-color="#ffffff" style="color: #c3996c;;font-size: 36px;margin: 25px;" href="https://www.instagram.com/alkhemylaboficial/" target="_blank">
+                <span class="mkdf-icon-border-inner" ></span>
+			<span class="mkdf-social-icon-widget fa fa-instagram     "></span>		</a>
+						</div>
+					</div>
+	</div>
+</div>			</footer>
+			</div> <!-- close div.mkdf-wrapper-inner  -->
+</div> <!-- close div.mkdf-wrapper -->
+
+<div id="um_upload_single" style="display:none"></div>
+<div id="um_view_photo" style="display:none">
+
+	<a href="javascript:void(0);" data-action="um_remove_modal" class="um-modal-close"><i class="um-faicon-times"></i></a>
+
+	<div class="um-modal-body photo">
+		<div class="um-modal-photo"></div>
+	</div>
+
+</div>
+<script type='text/javascript'>
+/* <![CDATA[ */
+r3f5x9JS=escape(document['referrer']);
+hf4N='975306b4aa37cfcfa89dd57023034d54';
+hf4V='d6a3c83a758351c46592e11f7fdaa37f';
+jQuery(document).ready(function($){var e="#commentform, .comment-respond form, .comment-form, #lostpasswordform, #registerform, #loginform, #login_form, #wpss_contact_form, .wpcf7-form";$(e).submit(function(){$("<input>").attr("type","hidden").attr("name","r3f5x9JS").attr("value",r3f5x9JS).appendTo(e);$("<input>").attr("type","hidden").attr("name",hf4N).attr("value",hf4V).appendTo(e);return true;});$("#comment").attr({minlength:"15",maxlength:"15360"})});
+/* ]]> */
+</script>
+<script type="text/html" id="wpb-modifications"></script>	<script type="text/javascript">
+		var c = document.body.className;
+		c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+		document.body.className = c;
+	</script>
+	<link rel='stylesheet' id='oraculo-css-css'  href='https://alkhemylab.com/wp-content/plugins/oraculo-flores/assets/styles/oraculo.css?ver=3.0.3' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/alkhemylab.com\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.1.6'></script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","currency":"GBP"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=3.9.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_2f5b9798d12d7a493201456a649693a9","fragment_name":"wc_fragments_2f5b9798d12d7a493201456a649693a9","request_timeout":"5000"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=3.9.3'></script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-content/plugins/cf7-phone-mask-field/assets/js/jquery.maskedinput.js?ver=1.4'></script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-includes/js/jquery/ui/tabs.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-includes/js/jquery/ui/accordion.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+var mejsL10n = {"language":"pt","strings":{"mejs.install-flash":"Voc\u00ea est\u00e1 usando um navegador que n\u00e3o tem Flash ativo ou instalado. Ative o plugin do Flash player ou baixe a \u00faltima vers\u00e3o em https:\/\/get.adobe.com\/flashplayer\/","mejs.fullscreen-off":"Desativar tela cheia","mejs.fullscreen-on":"Tela cheia","mejs.download-video":"Baixar o v\u00eddeo","mejs.fullscreen":"Tela inteira","mejs.time-jump-forward":["Avan\u00e7ar 1 segundo","Avan\u00e7ar %1 segundos"],"mejs.loop":"Alternar repeti\u00e7\u00e3o","mejs.play":"Reproduzir","mejs.pause":"Pausar","mejs.close":"Fechar","mejs.time-slider":"Tempo do slider","mejs.time-help-text":"Use as setas esquerda e direita para avan\u00e7ar um segundo. Acima e abaixo para avan\u00e7ar dez segundos.","mejs.time-skip-back":["Voltar 1 segundo","Retroceder %1 segundos"],"mejs.captions-subtitles":"Transcri\u00e7\u00f5es\/Legendas","mejs.captions-chapters":"Cap\u00edtulos","mejs.none":"Nenhum","mejs.mute-toggle":"Alternar mudo","mejs.volume-help-text":"Use as setas para cima ou para baixo para aumentar ou diminuir o volume.","mejs.unmute":"Desativar mudo","mejs.mute":"Mudo","mejs.volume-slider":"Controle de volume","mejs.video-player":"Tocador de v\u00eddeo","mejs.audio-player":"Tocador de \u00e1udio","mejs.ad-skip":"Pular an\u00fancio","mejs.ad-skip-info":["Pular em 1 segundo","Pular em %1 segundos"],"mejs.source-chooser":"Seletor de origem","mejs.stop":"Parar","mejs.speed-rate":"Taxa de velocidade","mejs.live-broadcast":"Transmiss\u00e3o ao vivo","mejs.afrikaans":"Afric\u00e2ner","mejs.albanian":"Alban\u00eas","mejs.arabic":"\u00c1rabe","mejs.belarusian":"Bielorrusso","mejs.bulgarian":"B\u00falgaro","mejs.catalan":"Catal\u00e3o","mejs.chinese":"Chin\u00eas","mejs.chinese-simplified":"Chin\u00eas (simplificado)","mejs.chinese-traditional":"Chin\u00eas (tradicional)","mejs.croatian":"Croata","mejs.czech":"Checo","mejs.danish":"Dinamarqu\u00eas","mejs.dutch":"Holand\u00eas","mejs.english":"Ingl\u00eas","mejs.estonian":"Estoniano","mejs.filipino":"Filipino","mejs.finnish":"Finland\u00eas","mejs.french":"Franc\u00eas","mejs.galician":"Galega","mejs.german":"Alem\u00e3o","mejs.greek":"Grego","mejs.haitian-creole":"Crioulo haitiano","mejs.hebrew":"Hebraico","mejs.hindi":"Hindi","mejs.hungarian":"H\u00fangaro","mejs.icelandic":"Island\u00eas","mejs.indonesian":"Indon\u00e9sio","mejs.irish":"Irland\u00eas","mejs.italian":"Italiano","mejs.japanese":"Japon\u00eas","mejs.korean":"Coreano","mejs.latvian":"Let\u00e3o","mejs.lithuanian":"Lituano","mejs.macedonian":"Maced\u00f4nio","mejs.malay":"Malaio","mejs.maltese":"Malt\u00eas","mejs.norwegian":"Noruegu\u00eas","mejs.persian":"Persa","mejs.polish":"Polon\u00eas","mejs.portuguese":"Portugu\u00eas","mejs.romanian":"Romeno","mejs.russian":"Russo","mejs.serbian":"S\u00e9rvio","mejs.slovak":"Eslovaco","mejs.slovenian":"Esloveno","mejs.spanish":"Espanhol","mejs.swahili":"Sua\u00edli","mejs.swedish":"Sueco","mejs.tagalog":"Tagalo","mejs.thai":"Tailand\u00eas","mejs.turkish":"Turco","mejs.ukrainian":"Ucraniano","mejs.vietnamese":"Vietnamita","mejs.welsh":"Gal\u00eas","mejs.yiddish":"I\u00eddiche"}};
+</script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=4.2.13-9993131'></script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-includes/js/mediaelement/mediaelement-migrate.min.js?ver=5.3.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/","classPrefix":"mejs-","stretching":"responsive"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-includes/js/mediaelement/wp-mediaelement.min.js?ver=5.3.2'></script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-content/themes/aviana/assets/js/modules/plugins/jquery.appear.js?ver=5.3.2'></script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-content/themes/aviana/assets/js/modules/plugins/modernizr.min.js?ver=5.3.2'></script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-content/themes/aviana/assets/js/modules/plugins/jquery.hoverIntent.min.js?ver=5.3.2'></script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-content/themes/aviana/assets/js/modules/plugins/jquery.plugin.js?ver=5.3.2'></script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-content/themes/aviana/assets/js/modules/plugins/owl.carousel.min.js?ver=5.3.2'></script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-content/themes/aviana/assets/js/modules/plugins/jquery.waypoints.min.js?ver=5.3.2'></script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-content/themes/aviana/assets/js/modules/plugins/Chart.min.js?ver=5.3.2'></script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-content/themes/aviana/assets/js/modules/plugins/fluidvids.min.js?ver=5.3.2'></script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-content/plugins/js_composer/assets/lib/prettyphoto/js/jquery.prettyPhoto.min.js?ver=6.1'></script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-content/themes/aviana/assets/js/modules/plugins/jquery.nicescroll.min.js?ver=5.3.2'></script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-content/themes/aviana/assets/js/modules/plugins/ScrollToPlugin.min.js?ver=5.3.2'></script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-content/themes/aviana/assets/js/modules/plugins/parallax.min.js?ver=5.3.2'></script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-content/themes/aviana/assets/js/modules/plugins/jquery.waitforimages.js?ver=5.3.2'></script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-content/themes/aviana/assets/js/modules/plugins/jquery.easing.1.3.js?ver=5.3.2'></script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-content/plugins/js_composer/assets/lib/bower/isotope/dist/isotope.pkgd.min.js?ver=6.1'></script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-content/themes/aviana/assets/js/modules/plugins/packery-mode.pkgd.min.js?ver=5.3.2'></script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-content/plugins/mikado-core/shortcodes/countdown/assets/js/plugins/jquery.countdown.min.js?ver=5.3.2'></script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-content/plugins/mikado-core/shortcodes/counter/assets/js/plugins/counter.js?ver=5.3.2'></script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-content/plugins/mikado-core/shortcodes/counter/assets/js/plugins/absoluteCounter.min.js?ver=5.3.2'></script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-content/plugins/mikado-core/shortcodes/custom-font/assets/js/plugins/typed.js?ver=5.3.2'></script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-content/plugins/mikado-core/shortcodes/full-screen-sections/assets/js/plugins/jquery.fullPage.min.js?ver=5.3.2'></script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-content/plugins/mikado-core/shortcodes/pie-chart/assets/js/plugins/easypiechart.js?ver=5.3.2'></script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-content/plugins/mikado-core/shortcodes/uncovering-sections/assets/js/plugins/curtain.js?ver=5.3.2'></script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-content/plugins/mikado-core/shortcodes/vertical-split-slider/assets/js/plugins/jquery.multiscroll.min.js?ver=5.3.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mkdfGlobalVars = {"vars":{"mkdfAddForAdminBar":0,"mkdfElementAppearAmount":-100,"mkdfAjaxUrl":"https:\/\/alkhemylab.com\/wp-admin\/admin-ajax.php","mkdfAddingToCart":"Adding to Cart...","mkdfStickyHeaderHeight":0,"mkdfStickyHeaderTransparencyHeight":70,"mkdfTopBarHeight":0,"mkdfLogoAreaHeight":0,"mkdfMenuAreaHeight":262,"mkdfMobileHeaderHeight":70}};
+var mkdfPerPageVars = {"vars":{"mkdfStickyScrollAmount":0,"mkdfHeaderTransparencyHeight":262,"mkdfHeaderVerticalWidth":0}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-content/themes/aviana/assets/js/modules.min.js?ver=5.3.2'></script>
+<script type='text/javascript' data-cfasync="false" src='https://alkhemylab.com/wp-content/plugins/3d-flipbook-dflip-lite/assets/js/dflip.min.js?ver=1.5.19'></script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-content/plugins/wp-spamshield/js/jscripts-ftr-min.js'></script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-content/plugins/ultimate-member/assets/js/select2/select2.full.min.js?ver=2.1.4'></script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-includes/js/underscore.min.js?ver=1.8.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-includes/js/wp-util.min.js?ver=5.3.2'></script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-content/plugins/ultimate-member/assets/js/um-crop.min.js?ver=2.1.4'></script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-content/plugins/ultimate-member/assets/js/um-modal.min.js?ver=2.1.4'></script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-content/plugins/ultimate-member/assets/js/um-jquery-form.min.js?ver=2.1.4'></script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-content/plugins/ultimate-member/assets/js/um-fileupload.min.js?ver=2.1.4'></script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-content/plugins/ultimate-member/assets/js/pickadate/picker.js?ver=2.1.4'></script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-content/plugins/ultimate-member/assets/js/pickadate/picker.date.js?ver=2.1.4'></script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-content/plugins/ultimate-member/assets/js/pickadate/picker.time.js?ver=2.1.4'></script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-content/plugins/ultimate-member/assets/js/pickadate/legacy.js?ver=2.1.4'></script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-content/plugins/ultimate-member/assets/js/pickadate/translations/pt_BR.js?ver=2.1.4'></script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=7.4.4'></script>
+<script type='text/javascript'>
+( 'fetch' in window ) || document.write( '<script src="https://alkhemylab.com/wp-includes/js/dist/vendor/wp-polyfill-fetch.min.js?ver=3.0.0"></scr' + 'ipt>' );( document.contains ) || document.write( '<script src="https://alkhemylab.com/wp-includes/js/dist/vendor/wp-polyfill-node-contains.min.js?ver=3.26.0-0"></scr' + 'ipt>' );( window.FormData && window.FormData.prototype.keys ) || document.write( '<script src="https://alkhemylab.com/wp-includes/js/dist/vendor/wp-polyfill-formdata.min.js?ver=3.0.12"></scr' + 'ipt>' );( Element.prototype.matches && Element.prototype.closest ) || document.write( '<script src="https://alkhemylab.com/wp-includes/js/dist/vendor/wp-polyfill-element-closest.min.js?ver=2.0.2"></scr' + 'ipt>' );
+</script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-includes/js/dist/i18n.min.js?ver=3.6.1'></script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-content/plugins/ultimate-member/assets/js/um-raty.min.js?ver=2.1.4'></script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-content/plugins/ultimate-member/assets/js/um-tipsy.min.js?ver=2.1.4'></script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-includes/js/imagesloaded.min.js?ver=3.2.0'></script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-includes/js/masonry.min.js?ver=3.3.2'></script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-includes/js/jquery/jquery.masonry.min.js?ver=3.1.2b'></script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-content/plugins/ultimate-member/assets/js/simplebar.min.js?ver=2.1.4'></script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-content/plugins/ultimate-member/assets/js/um-functions.min.js?ver=2.1.4'></script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-content/plugins/ultimate-member/assets/js/um-responsive.min.js?ver=2.1.4'></script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-content/plugins/ultimate-member/assets/js/um-conditional.min.js?ver=2.1.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var um_scripts = {"nonce":"37b116708c"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-content/plugins/ultimate-member/assets/js/um-scripts.min.js?ver=2.1.4'></script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-content/plugins/ultimate-member/assets/js/um-profile.min.js?ver=2.1.4'></script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-content/plugins/ultimate-member/assets/js/um-account.min.js?ver=2.1.4'></script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-includes/js/wp-embed.min.js?ver=5.3.2'></script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=6.1'></script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-content/plugins/oraculo-flores/assets/scripts/oraculo.js?ver=3.0.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var aepc_pixel_events = {"custom_events":{"AdvancedEvents":[{"params":{"login_status":"not_logged_in","post_type":"page","object_id":34971,"object_type":"page"},"delay":0}]}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://alkhemylab.com/wp-content/plugins/pixel-caffeine/build/frontend.js?ver=2.1.1'></script>
+		<script type="text/javascript">
+			jQuery( '#request' ).val( '' );
+		</script>
+	</body>
+</html>
